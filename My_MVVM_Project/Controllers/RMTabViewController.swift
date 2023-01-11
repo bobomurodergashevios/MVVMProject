@@ -54,16 +54,6 @@ class RMTabBarController: UITabBarController {
             
             tabBarAppearance.backgroundColor = .white
             
-            
-         
-            
-            
-            
-            
-            
-            
-            
-            
             if #available(iOS 15.0, *) {
                 tabBar.scrollEdgeAppearance = tabBarAppearance
             } else {
