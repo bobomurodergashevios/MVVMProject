@@ -64,11 +64,11 @@
 			children = (
 				D04184E6296E7A2B00DCA40C /* Managers */,
 				D04184E5296E7A1D00DCA40C /* APIClient */,
-				D04184E4296E79F400DCA40C /* Resources */,
 				D04184E3296E79EA00DCA40C /* Controllers */,
 				D04184E2296E79C200DCA40C /* ViewModels */,
 				D04184E1296E79BA00DCA40C /* Views */,
 				D04184E0296E79AB00DCA40C /* Models */,
+				D04184E4296E79F400DCA40C /* Resources */,
 				D04184DA296E768000DCA40C /* Info.plist */,
 			);
 			path = My_MVVM_Project;

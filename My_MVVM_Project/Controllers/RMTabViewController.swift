@@ -9,7 +9,7 @@ import UIKit
 
 class RMTabBarController: UITabBarController {
 
-    override func viewDidLoad() {   
+    override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .white
         setupTabs()
@@ -53,6 +53,15 @@ class RMTabBarController: UITabBarController {
             tabBar.standardAppearance = tabBarAppearance
             
             tabBarAppearance.backgroundColor = .white
+            
+            
+         
+            
+            
+            
+            
+            
+            
             
             
             if #available(iOS 15.0, *) {
