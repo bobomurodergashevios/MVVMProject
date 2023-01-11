@@ -16,6 +16,7 @@
 		D04184EA296E7BD400DCA40C /* RMLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04184E9296E7BD400DCA40C /* RMLocationViewController.swift */; };
 		D04184EC296E7BE000DCA40C /* RMEpisodesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04184EB296E7BE000DCA40C /* RMEpisodesViewController.swift */; };
 		D04184EE296E7BED00DCA40C /* RMSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04184ED296E7BED00DCA40C /* RMSettingsViewController.swift */; };
+		D0908252296EC16C00C1D9EE /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0908251296EC16C00C1D9EE /* Episode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		D04184E9296E7BD400DCA40C /* RMLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLocationViewController.swift; sourceTree = "<group>"; };
 		D04184EB296E7BE000DCA40C /* RMEpisodesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEpisodesViewController.swift; sourceTree = "<group>"; };
 		D04184ED296E7BED00DCA40C /* RMSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSettingsViewController.swift; sourceTree = "<group>"; };
+		D0908251296EC16C00C1D9EE /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		D04184E0296E79AB00DCA40C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D0908251296EC16C00C1D9EE /* Episode.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 			files = (
 				D04184EE296E7BED00DCA40C /* RMSettingsViewController.swift in Sources */,
 				D04184EA296E7BD400DCA40C /* RMLocationViewController.swift in Sources */,
+				D0908252296EC16C00C1D9EE /* Episode.swift in Sources */,
 				D04184D1296E767F00DCA40C /* RMTabViewController.swift in Sources */,
 				D04184E8296E7BBE00DCA40C /* RMCharacterViewController.swift in Sources */,
 				D04184EC296E7BE000DCA40C /* RMEpisodesViewController.swift in Sources */,
