@@ -17,6 +17,7 @@
 		D04184EC296E7BE000DCA40C /* RMEpisodesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04184EB296E7BE000DCA40C /* RMEpisodesViewController.swift */; };
 		D04184EE296E7BED00DCA40C /* RMSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04184ED296E7BED00DCA40C /* RMSettingsViewController.swift */; };
 		D0908252296EC16C00C1D9EE /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0908251296EC16C00C1D9EE /* Episode.swift */; };
+		D0908254296EC40D00C1D9EE /* EpisodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0908253296EC40D00C1D9EE /* EpisodeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D04184EB296E7BE000DCA40C /* RMEpisodesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEpisodesViewController.swift; sourceTree = "<group>"; };
 		D04184ED296E7BED00DCA40C /* RMSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSettingsViewController.swift; sourceTree = "<group>"; };
 		D0908251296EC16C00C1D9EE /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		D0908253296EC40D00C1D9EE /* EpisodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		D04184E1296E79BA00DCA40C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D0908253296EC40D00C1D9EE /* EpisodeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0908254296EC40D00C1D9EE /* EpisodeView.swift in Sources */,
 				D04184EE296E7BED00DCA40C /* RMSettingsViewController.swift in Sources */,
 				D04184EA296E7BD400DCA40C /* RMLocationViewController.swift in Sources */,
 				D0908252296EC16C00C1D9EE /* Episode.swift in Sources */,
