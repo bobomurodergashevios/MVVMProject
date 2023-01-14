@@ -6,36 +6,38 @@
 //
 
 import UIKit
-import ExpandableCell
 protocol HomeViewControllerLogic : HomeInstaller {
     func setupTargets()
 }
 class HomeViewController: UIViewController,HomeViewControllerLogic {
+  
     
-    var expTabLeView: ExpandableTableView!
+    var expandView: ExpandingViewww!
+    var baseView: UIView!
+    var fikrView: UIView!
+    var fikrLbl: UILabel!
     
     var mainView: UIView!{self.view}
     var presenter : HomePresenterLogic?
-
+    
+    
+    var isSenderExpanded = false
+    var isReceiverExpanded = false
     override func viewDidLoad() {
         super.viewDidLoad()
         presenter?.viewDidLoad()
-        view.backgroundColor = .white
+        view.backgroundColor = UIColor(hex: "#F7F7F7")
         title = "Kapital Agent"
         
         self.navigationController?.navigationBar.backgroundColor = .white
 //        self.navigationController?.navigationBar.prefersLargeTitles = true
-//        self.setNeedsStatusBarAppearanceUpdate()
         if #available(iOS 13.0, *) {
             self.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "person"), style: .done, target: self, action: nil)
-        } else {
-            // Fallback on earlier versions
         }
         if #available(iOS 13.0, *) {
             self.navigationController?.navigationBar.standardAppearance = UINavigationBarAppearance()
             self.navigationController?.navigationBar.compactAppearance = UINavigationBarAppearance()
             self.navigationController?.navigationBar.scrollEdgeAppearance = UINavigationBarAppearance()
-//            }
         }
         
     }
@@ -43,47 +45,42 @@ class HomeViewController: UIViewController,HomeViewControllerLogic {
 
     
     func setupTargets() {
-        self.expTabLeView.expandableDelegate = self
-        self.expTabLeView.register(UITableViewCell.self, forCellReuseIdentifier: "UITableViewCell")
-        self.expTabLeView.backgroundColor = .yellow
+        expandView.moreButton.addTarget(self, action: #selector(onExpandTapped), for: .touchUpInside)
+        expandView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(onExpandTapped)))
+        expandView.anketaContainer.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(onAnketaLblTapped)))
     }
-    
-
-}
-
-extension HomeViewController : ExpandableDelegate {
-    func numberOfSections(in expandableTableView: ExpandableTableView) -> Int {
-        2
-    }
-    func expandableTableView(_ expandableTableView: ExpandableTableView, heightsForExpandedRowAt indexPath: IndexPath) -> [CGFloat]? {
-        return [CGFloat(0)]
-    }
-    
-    func expandableTableView(_ expandableTableView: ExpandableTableView, expandedCellsForRowAt indexPath: IndexPath) -> [UITableViewCell]? {
-        return [UITableViewCell(),UITableViewCell(),UITableViewCell()]
-    }
-    
-    func expandableTableView(_ expandableTableView: ExpandableTableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        120
-    }
-    
-    func expandableTableView(_ expandableTableView: ExpandableTableView, numberOfRowsInSection section: Int) -> Int {
-        2
-    }
-    
-    func expandableTableView(_ expandableTableView: ExpandableTableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = expandableTableView.dequeueReusableCell(withIdentifier: "UITableViewCell", for: indexPath)
-        cell.backgroundColor = .red
-        cell.textLabel?.text = "OCAP"
-        cell.textLabel?.font = .boldSystemFont(ofSize: 19)
-        return cell
-    }
-    
-    func expandableTableView(_ expandableTableView: ExpandableTableView, didSelectRowAt indexPath: IndexPath) {
-        print("dsjhb")
+    @objc func onAnketaLblTapped(){
+        print("sffsf")
         presenter?.navToVC()
     }
-
+    @objc func onExpandTapped() {
+        print("tapped....")
+        self.senderExpandView(isExpand: self.isSenderExpanded)
+    }
     
-   
+    func senderExpandView(isExpand: Bool){
+        if isExpand {
+            isSenderExpanded = false
+           
+            UIView.animate(withDuration: 0.3, delay: 0.0, options: .transitionCrossDissolve) {
+                self.expandView.stackView.alpha = 0
+                self.expandView.stackView.isHidden = true
+                self.expandView.snp.updateConstraints { make in
+                    make.height.equalTo(120)
+                }
+                self.mainView.layoutIfNeeded()
+            }
+        } else {
+            isSenderExpanded = true
+            
+            UIView.animate(withDuration: 0.3, delay: 0.1, options: .transitionCrossDissolve) {
+                self.expandView.stackView.alpha = 1
+                self.expandView.stackView.isHidden = false
+                self.expandView.snp.updateConstraints({ make in
+                       make.height.equalTo(200)
+                })
+                self.mainView.layoutIfNeeded()
+            }
+        }
+    }
 }

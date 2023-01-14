@@ -64,13 +64,15 @@ extension AnketaVC : UITableViewDelegate,UITableViewDataSource {
 //        cell.datePickerBtn.addTarget(self, action: #selector(onBtnClicked(_:)), for: .touchUpInside)
         return cell
     }
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let vc = CalendarDialogController()
-                vc.completion = { text in
-                    self.cellArr[indexPath.row].datePickerLbl.text = text
-                }
-        self.navigationController?.present(vc, animated: true)
-    }
+    
+//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        let vc = CalendarDialogController()
+//                vc.completion = { text in
+//                    self.cellArr[indexPath.row].datePickerLbl.text = text
+//                }
+//        self.navigationController?.present(vc, animated: true)
+//    }
+    
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 160
     }

@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        UINavigationBar.appearance().barStyle = .blackTranslucent
 //        UINavigationBar.appearance().tintColor = .white
 
-        window?.rootViewController = UINavigationController(rootViewController: AnketaRouter.createModule())
+        window?.rootViewController = UINavigationController(rootViewController: HomeRouter.createModule())
         return true
     }
 

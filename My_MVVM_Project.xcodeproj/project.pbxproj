@@ -18,6 +18,13 @@
 		D04184EA296E7BD400DCA40C /* RMLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04184E9296E7BD400DCA40C /* RMLocationViewController.swift */; };
 		D04184EC296E7BE000DCA40C /* RMEpisodesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04184EB296E7BE000DCA40C /* RMEpisodesViewController.swift */; };
 		D04184EE296E7BED00DCA40C /* RMSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04184ED296E7BED00DCA40C /* RMSettingsViewController.swift */; };
+		D046B8FF297170170031D14E /* SwipeGestureUSedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D046B8FE297170170031D14E /* SwipeGestureUSedViewController.swift */; };
+		D046B902297183590031D14E /* ExpandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D046B901297183590031D14E /* ExpandingView.swift */; };
+		D046B9052971854B0031D14E /* PaymentConfirmationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D046B9042971854B0031D14E /* PaymentConfirmationVC.swift */; };
+		D046B9072971855A0031D14E /* PaymentConfirmationInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D046B9062971855A0031D14E /* PaymentConfirmationInstaller.swift */; };
+		D046B909297185690031D14E /* PaymentConfirmationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D046B908297185690031D14E /* PaymentConfirmationPresenter.swift */; };
+		D046B90B297185760031D14E /* PaymentConfirmationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D046B90A297185760031D14E /* PaymentConfirmationInteractor.swift */; };
+		D046B90D297185840031D14E /* PaymentConfirmationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D046B90C297185840031D14E /* PaymentConfirmationRouter.swift */; };
 		D0560987296FE26300C456BB /* SettingVCRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0560980296FE26300C456BB /* SettingVCRouter.swift */; };
 		D0560988296FE26300C456BB /* SettingVCInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0560981296FE26300C456BB /* SettingVCInteractor.swift */; };
 		D0560989296FE26300C456BB /* StandartOrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0560982296FE26300C456BB /* StandartOrdersView.swift */; };
@@ -35,7 +42,6 @@
 		D0908260296EDA2500C1D9EE /* RMCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090825F296EDA2500C1D9EE /* RMCharacter.swift */; };
 		D0D47671296FE3230069D9F6 /* FloatingTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D4766B296FE3230069D9F6 /* FloatingTextFieldView.swift */; };
 		D0D47672296FE3230069D9F6 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D4766C296FE3230069D9F6 /* HomeHeaderView.swift */; };
-		D0D47673296FE3230069D9F6 /* ExpandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D4766D296FE3230069D9F6 /* ExpandingView.swift */; };
 		D0D47674296FE3230069D9F6 /* HomePlatejiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D4766E296FE3230069D9F6 /* HomePlatejiView.swift */; };
 		D0D47675296FE3230069D9F6 /* HomeValyutaCollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D4766F296FE3230069D9F6 /* HomeValyutaCollViewCell.swift */; };
 		D0D4767B296FE4250069D9F6 /* String+EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D47677296FE4250069D9F6 /* String+EXT.swift */; };
@@ -83,6 +89,13 @@
 		D04184E9296E7BD400DCA40C /* RMLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLocationViewController.swift; sourceTree = "<group>"; };
 		D04184EB296E7BE000DCA40C /* RMEpisodesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEpisodesViewController.swift; sourceTree = "<group>"; };
 		D04184ED296E7BED00DCA40C /* RMSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSettingsViewController.swift; sourceTree = "<group>"; };
+		D046B8FE297170170031D14E /* SwipeGestureUSedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeGestureUSedViewController.swift; sourceTree = "<group>"; };
+		D046B901297183590031D14E /* ExpandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingView.swift; sourceTree = "<group>"; };
+		D046B9042971854B0031D14E /* PaymentConfirmationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentConfirmationVC.swift; sourceTree = "<group>"; };
+		D046B9062971855A0031D14E /* PaymentConfirmationInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentConfirmationInstaller.swift; sourceTree = "<group>"; };
+		D046B908297185690031D14E /* PaymentConfirmationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentConfirmationPresenter.swift; sourceTree = "<group>"; };
+		D046B90A297185760031D14E /* PaymentConfirmationInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentConfirmationInteractor.swift; sourceTree = "<group>"; };
+		D046B90C297185840031D14E /* PaymentConfirmationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentConfirmationRouter.swift; sourceTree = "<group>"; };
 		D0560980296FE26300C456BB /* SettingVCRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingVCRouter.swift; path = ../../TengeTestTemplate/TengeTestTemplate/SettingVCRouter.swift; sourceTree = "<group>"; };
 		D0560981296FE26300C456BB /* SettingVCInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingVCInteractor.swift; path = ../../TengeTestTemplate/TengeTestTemplate/SettingVCInteractor.swift; sourceTree = "<group>"; };
 		D0560982296FE26300C456BB /* StandartOrdersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StandartOrdersView.swift; path = ../../TengeTestTemplate/TengeTestTemplate/StandartOrdersView.swift; sourceTree = "<group>"; };
@@ -100,7 +113,6 @@
 		D090825F296EDA2500C1D9EE /* RMCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacter.swift; sourceTree = "<group>"; };
 		D0D4766B296FE3230069D9F6 /* FloatingTextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatingTextFieldView.swift; path = ../../MyViperProject/MyViperProject/CustomViews/Home/FloatingTextFieldView.swift; sourceTree = "<group>"; };
 		D0D4766C296FE3230069D9F6 /* HomeHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeHeaderView.swift; path = ../../MyViperProject/MyViperProject/CustomViews/Home/HomeHeaderView.swift; sourceTree = "<group>"; };
-		D0D4766D296FE3230069D9F6 /* ExpandingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExpandingView.swift; path = ../../MyViperProject/MyViperProject/CustomViews/Home/ExpandingView.swift; sourceTree = "<group>"; };
 		D0D4766E296FE3230069D9F6 /* HomePlatejiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomePlatejiView.swift; path = ../../MyViperProject/MyViperProject/CustomViews/Home/HomePlatejiView.swift; sourceTree = "<group>"; };
 		D0D4766F296FE3230069D9F6 /* HomeValyutaCollViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeValyutaCollViewCell.swift; path = ../../MyViperProject/MyViperProject/CustomViews/Home/HomeValyutaCollViewCell.swift; sourceTree = "<group>"; };
 		D0D47677296FE4250069D9F6 /* String+EXT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+EXT.swift"; path = "../../MyViperProject/MyViperProject/String+EXT.swift"; sourceTree = "<group>"; };
@@ -182,10 +194,11 @@
 		D04184CB296E767F00DCA40C /* My_MVVM_Project */ = {
 			isa = PBXGroup;
 			children = (
+				D046B9032971852A0031D14E /* PaymentConfirmations */,
+				D046B900297183460031D14E /* CustomViews */,
 				D0D476B8296FF98C0069D9F6 /* HomeVC */,
 				D0D476AD296FF1EF0069D9F6 /* AnketaVC */,
 				D056098E296FE29200C456BB /* BaseViewController.swift */,
-				D0D4766D296FE3230069D9F6 /* ExpandingView.swift */,
 				D0D4766B296FE3230069D9F6 /* FloatingTextFieldView.swift */,
 				D0D4766C296FE3230069D9F6 /* HomeHeaderView.swift */,
 				D0D47677296FE4250069D9F6 /* String+EXT.swift */,
@@ -219,6 +232,7 @@
 				D04184E0296E79AB00DCA40C /* Models */,
 				D04184E4296E79F400DCA40C /* Resources */,
 				D04184DA296E768000DCA40C /* Info.plist */,
+				D046B8FE297170170031D14E /* SwipeGestureUSedViewController.swift */,
 			);
 			path = My_MVVM_Project;
 			sourceTree = "<group>";
@@ -285,6 +299,26 @@
 			children = (
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		D046B900297183460031D14E /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				D046B901297183590031D14E /* ExpandingView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		D046B9032971852A0031D14E /* PaymentConfirmations */ = {
+			isa = PBXGroup;
+			children = (
+				D046B9042971854B0031D14E /* PaymentConfirmationVC.swift */,
+				D046B9062971855A0031D14E /* PaymentConfirmationInstaller.swift */,
+				D046B908297185690031D14E /* PaymentConfirmationPresenter.swift */,
+				D046B90A297185760031D14E /* PaymentConfirmationInteractor.swift */,
+				D046B90C297185840031D14E /* PaymentConfirmationRouter.swift */,
+			);
+			path = PaymentConfirmations;
 			sourceTree = "<group>";
 		};
 		D0D47691296FED960069D9F6 /* ViperExtension */ = {
@@ -455,6 +489,7 @@
 				D0D4767B296FE4250069D9F6 /* String+EXT.swift in Sources */,
 				D0D47684296FE49D0069D9F6 /* PresentationProtocol.swift in Sources */,
 				D025093529702136003DAEE0 /* CalendarDialogController.swift in Sources */,
+				D046B9072971855A0031D14E /* PaymentConfirmationInstaller.swift in Sources */,
 				D056098A296FE26300C456BB /* SettingVCPresenter.swift in Sources */,
 				D056098F296FE29200C456BB /* BaseViewController.swift in Sources */,
 				D0560989296FE26300C456BB /* StandartOrdersView.swift in Sources */,
@@ -464,6 +499,7 @@
 				D0D47674296FE3230069D9F6 /* HomePlatejiView.swift in Sources */,
 				D0D4768E296FE5C10069D9F6 /* LichniyKabinetViewController.swift in Sources */,
 				D0560987296FE26300C456BB /* SettingVCRouter.swift in Sources */,
+				D046B9052971854B0031D14E /* PaymentConfirmationVC.swift in Sources */,
 				D0D47671296FE3230069D9F6 /* FloatingTextFieldView.swift in Sources */,
 				D0D476C2296FF9FD0069D9F6 /* HomeRouter.swift in Sources */,
 				D04184EA296E7BD400DCA40C /* RMLocationViewController.swift in Sources */,
@@ -476,23 +512,27 @@
 				D04184D1296E767F00DCA40C /* RMTabViewController.swift in Sources */,
 				D0D476C0296FF9F70069D9F6 /* HomeInteractor.swift in Sources */,
 				D04184E8296E7BBE00DCA40C /* RMCharacterViewController.swift in Sources */,
+				D046B90D297185840031D14E /* PaymentConfirmationRouter.swift in Sources */,
 				D0560988296FE26300C456BB /* SettingVCInteractor.swift in Sources */,
+				D046B909297185690031D14E /* PaymentConfirmationPresenter.swift in Sources */,
 				D0D4768D296FE5C10069D9F6 /* LichniyKabinetViewInteractor.swift in Sources */,
 				D0D47682296FE49D0069D9F6 /* ViewInstaller.swift in Sources */,
 				D0D476BC296FF9D60069D9F6 /* HomeInstaller.swift in Sources */,
 				D090825A296ED90300C1D9EE /* RMEndpoint.swift in Sources */,
 				D090825C296EDA0A00C1D9EE /* RMLocation.swift in Sources */,
+				D046B8FF297170170031D14E /* SwipeGestureUSedViewController.swift in Sources */,
 				D04184EC296E7BE000DCA40C /* RMEpisodesViewController.swift in Sources */,
 				D0D4767E296FE4250069D9F6 /* UIView+EXT.swift in Sources */,
 				D0D476BE296FF9EE0069D9F6 /* HomePresenter.swift in Sources */,
+				D046B902297183590031D14E /* ExpandingView.swift in Sources */,
 				D04184CD296E767F00DCA40C /* AppDelegate.swift in Sources */,
+				D046B90B297185760031D14E /* PaymentConfirmationInteractor.swift in Sources */,
 				D0D476C4297011630069D9F6 /* AnketaDM.swift in Sources */,
 				D0D47672296FE3230069D9F6 /* HomeHeaderView.swift in Sources */,
 				D0D476AF296FF6BC0069D9F6 /* AnketaVC.swift in Sources */,
 				D090825E296EDA1400C1D9EE /* RMEpisode.swift in Sources */,
 				D0D476C62970121B0069D9F6 /* AnketaTableViewCell.swift in Sources */,
 				D0D47690296FE5C10069D9F6 /* ValyutaOptionViewController.swift in Sources */,
-				D0D47673296FE3230069D9F6 /* ExpandingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
