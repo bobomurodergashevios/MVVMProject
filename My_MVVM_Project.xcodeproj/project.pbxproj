@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A7B14E0BC1D6D758C0B476C2 /* Pods_My_MVVM_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EAB53FE14A887C6FDACBDE5 /* Pods_My_MVVM_Project.framework */; };
+		D00ECF2129794DDB00A84439 /* UIButtonEXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00ECF2029794DDB00A84439 /* UIButtonEXT.swift */; };
+		D00ECF242979514900A84439 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00ECF232979514900A84439 /* MainTabBarViewController.swift */; };
 		D01E6D422977BC9F00F8D06A /* ValyutaKursiExpandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E6D412977BC9F00F8D06A /* ValyutaKursiExpandView.swift */; };
 		D023AE112977CBD300D45DE6 /* ValyutaExpandStackChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE102977CBD300D45DE6 /* ValyutaExpandStackChildView.swift */; };
 		D023AE142977E54E00D45DE6 /* IpotekaKartalarVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE132977E54E00D45DE6 /* IpotekaKartalarVCViewController.swift */; };
@@ -160,6 +162,8 @@
 		13FCEF494B80E3E916A71B5A /* Pods-My_MVVM_Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My_MVVM_Project.debug.xcconfig"; path = "Target Support Files/Pods-My_MVVM_Project/Pods-My_MVVM_Project.debug.xcconfig"; sourceTree = "<group>"; };
 		2EAB53FE14A887C6FDACBDE5 /* Pods_My_MVVM_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_MVVM_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42094865F5906BA6E37411E /* Pods-My_MVVM_Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My_MVVM_Project.release.xcconfig"; path = "Target Support Files/Pods-My_MVVM_Project/Pods-My_MVVM_Project.release.xcconfig"; sourceTree = "<group>"; };
+		D00ECF2029794DDB00A84439 /* UIButtonEXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonEXT.swift; sourceTree = "<group>"; };
+		D00ECF232979514900A84439 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		D01E6D412977BC9F00F8D06A /* ValyutaKursiExpandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValyutaKursiExpandView.swift; sourceTree = "<group>"; };
 		D023AE102977CBD300D45DE6 /* ValyutaExpandStackChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValyutaExpandStackChildView.swift; sourceTree = "<group>"; };
 		D023AE132977E54E00D45DE6 /* IpotekaKartalarVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpotekaKartalarVCViewController.swift; sourceTree = "<group>"; };
@@ -337,6 +341,14 @@
 				C42094865F5906BA6E37411E /* Pods-My_MVVM_Project.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D00ECF222979512100A84439 /* MainTabBarVC */ = {
+			isa = PBXGroup;
+			children = (
+				D00ECF232979514900A84439 /* MainTabBarViewController.swift */,
+			);
+			path = MainTabBarVC;
 			sourceTree = "<group>";
 		};
 		D023AE122977E52400D45DE6 /* IpotekaKartalarVC */ = {
@@ -547,6 +559,7 @@
 				D023AEF02979101F00D45DE6 /* UIViewEXT.swift */,
 				D023AEF22979107500D45DE6 /* StringEXT.swift */,
 				D023AEF4297910CD00D45DE6 /* UIColorEXT.swift */,
+				D00ECF2029794DDB00A84439 /* UIButtonEXT.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -610,6 +623,7 @@
 		D04184CB296E767F00DCA40C /* My_MVVM_Project */ = {
 			isa = PBXGroup;
 			children = (
+				D00ECF222979512100A84439 /* MainTabBarVC */,
 				D023AEE129790C5E00D45DE6 /* ZayavkaViewController */,
 				D023AEC82978534C00D45DE6 /* Test */,
 				D023AEBB2978527400D45DE6 /* HisobraqamlarVC */,
@@ -857,6 +871,7 @@
 				D023AEC12978529200D45DE6 /* HisobraqamlarVCPRe.swift in Sources */,
 				D02AEC072975A449001A8C9B /* CustomScrollView.swift in Sources */,
 				D023AE402978407400D45DE6 /* VC.swift in Sources */,
+				D00ECF2129794DDB00A84439 /* UIButtonEXT.swift in Sources */,
 				D023AE53297845A300D45DE6 /* SferaVC.swift in Sources */,
 				D023AE8D29784CB600D45DE6 /* KursandValRouter.swift in Sources */,
 				D023AE112977CBD300D45DE6 /* ValyutaExpandStackChildView.swift in Sources */,
@@ -868,6 +883,7 @@
 				D025093529702136003DAEE0 /* CalendarDialogController.swift in Sources */,
 				D023AE5B297845C800D45DE6 /* SferaRoutere.swift in Sources */,
 				D023AED22978538500D45DE6 /* TestVCRouter.swift in Sources */,
+				D00ECF242979514900A84439 /* MainTabBarViewController.swift in Sources */,
 				D023AE66297847CD00D45DE6 /* NextRouter.swift in Sources */,
 				D023AEF72979111900D45DE6 /* FloatingTextField.swift in Sources */,
 				D023AF03297912F100D45DE6 /* MaterialMultilineTextField.swift in Sources */,
