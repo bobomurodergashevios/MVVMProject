@@ -55,9 +55,19 @@ class IpotekaKartalarVCViewController: UIViewController , IpotekaKartalarVCViewC
         segmentTableView.dataSource = self
         segmentTableView.separatorStyle = .none
 //        segmentTableView.backgroundColor = .red
-        
+        segmentControll.addTarget(self, action: #selector(onHandleSegmented(_:)), for: .valueChanged)
     }
-    
+    @objc func onHandleSegmented(_ segmentController : UISegmentedControl){
+        print("segment changed")
+        if segmentController.selectedSegmentIndex != 0 {
+            dataList = []
+            self.segmentTableView.reloadData()
+        }else{
+            dataList = pageControll.currentPage == 0 ? datalist1 : pageControll.currentPage == 1 ? datalist2 : datalist3
+            self.segmentTableView.reloadData()
+        }
+       
+    }
     @objc func pageControllDidchange(_ sender : UIPageControl){
         print("nimadir")
         let current = sender.currentPage
@@ -93,7 +103,7 @@ extension IpotekaKartalarVCViewController : UIScrollViewDelegate {
 }
 extension IpotekaKartalarVCViewController : UITableViewDelegate,UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 11
+        return dataList.count
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: AboutCardCell.identifier, for: indexPath) as! AboutCardCell

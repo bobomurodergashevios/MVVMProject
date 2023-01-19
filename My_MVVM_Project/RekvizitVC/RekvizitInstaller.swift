@@ -58,9 +58,7 @@ extension RekvizitViewInstaller {
         
         textfield2 = FloatingTextFieldView()
         textfield2.setPlaceholder(name: "МФО")
-        textfield2.type = .password
-        textfield2.isSecured = true
-        
+        textfield2.type = .password        
         textfield2.showDropDownIcon()
     
         container3 = UIView()

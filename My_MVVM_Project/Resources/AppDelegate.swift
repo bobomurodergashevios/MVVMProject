@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        UINavigationBar.appearance().barStyle = .blackTranslucent
 //        UINavigationBar.appearance().tintColor = .white
 
-        window?.rootViewController = UINavigationController(rootViewController: RekvizitViewRouter.createModule())
+        window?.rootViewController = UINavigationController(rootViewController: IpotekaKartalarRouter.createModule())
         return true
     }
 
