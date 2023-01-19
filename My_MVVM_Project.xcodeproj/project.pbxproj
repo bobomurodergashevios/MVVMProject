@@ -8,51 +8,140 @@
 
 /* Begin PBXBuildFile section */
 		A7B14E0BC1D6D758C0B476C2 /* Pods_My_MVVM_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EAB53FE14A887C6FDACBDE5 /* Pods_My_MVVM_Project.framework */; };
+		D01E6D422977BC9F00F8D06A /* ValyutaKursiExpandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E6D412977BC9F00F8D06A /* ValyutaKursiExpandView.swift */; };
+		D023AE112977CBD300D45DE6 /* ValyutaExpandStackChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE102977CBD300D45DE6 /* ValyutaExpandStackChildView.swift */; };
+		D023AE142977E54E00D45DE6 /* IpotekaKartalarVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE132977E54E00D45DE6 /* IpotekaKartalarVCViewController.swift */; };
+		D023AE162977E55E00D45DE6 /* IpotekaKartalarInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE152977E55E00D45DE6 /* IpotekaKartalarInstaller.swift */; };
+		D023AE182977E5CB00D45DE6 /* IpotekaKartalarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE172977E5CB00D45DE6 /* IpotekaKartalarPresenter.swift */; };
+		D023AE1A2977E5D400D45DE6 /* IpotekaKartalarInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE192977E5D400D45DE6 /* IpotekaKartalarInteractor.swift */; };
+		D023AE1C2977E5DE00D45DE6 /* IpotekaKartalarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE1B2977E5DE00D45DE6 /* IpotekaKartalarRouter.swift */; };
+		D023AE1F2977FC7A00D45DE6 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE1E2977FC7A00D45DE6 /* PageView.swift */; };
+		D023AE222977FCAD00D45DE6 /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE212977FCAD00D45DE6 /* PageModel.swift */; };
+		D023AE2429782DAA00D45DE6 /* AboutCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE2329782DAA00D45DE6 /* AboutCardCell.swift */; };
+		D023AE262978324000D45DE6 /* PageCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE252978324000D45DE6 /* PageCellModel.swift */; };
+		D023AE3D29783D6700D45DE6 /* SchetaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE3C29783D6700D45DE6 /* SchetaView.swift */; };
+		D023AE402978407400D45DE6 /* VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE3F2978407400D45DE6 /* VC.swift */; };
+		D023AE422978407D00D45DE6 /* Installer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE412978407D00D45DE6 /* Installer.swift */; };
+		D023AE442978408600D45DE6 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE432978408600D45DE6 /* Presenter.swift */; };
+		D023AE462978408E00D45DE6 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE452978408E00D45DE6 /* Interactor.swift */; };
+		D023AE482978409300D45DE6 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE472978409300D45DE6 /* Router.swift */; };
+		D023AE4A297841BD00D45DE6 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE49297841BD00D45DE6 /* Entity.swift */; };
+		D023AE53297845A300D45DE6 /* SferaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE52297845A300D45DE6 /* SferaVC.swift */; };
+		D023AE55297845AC00D45DE6 /* SFERAInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE54297845AC00D45DE6 /* SFERAInstaller.swift */; };
+		D023AE57297845B500D45DE6 /* SferaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE56297845B500D45DE6 /* SferaPresenter.swift */; };
+		D023AE59297845C200D45DE6 /* SferaInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE58297845C200D45DE6 /* SferaInteractor.swift */; };
+		D023AE5B297845C800D45DE6 /* SferaRoutere.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE5A297845C800D45DE6 /* SferaRoutere.swift */; };
+		D023AE5E2978478300D45DE6 /* NextViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE5D2978478300D45DE6 /* NextViewC.swift */; };
+		D023AE60297847AE00D45DE6 /* NextInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE5F297847AE00D45DE6 /* NextInstaller.swift */; };
+		D023AE62297847BD00D45DE6 /* NextInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE61297847BD00D45DE6 /* NextInteractor.swift */; };
+		D023AE64297847C500D45DE6 /* NextPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE63297847C500D45DE6 /* NextPresenter.swift */; };
+		D023AE66297847CD00D45DE6 /* NextRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE65297847CD00D45DE6 /* NextRouter.swift */; };
+		D023AE69297848C500D45DE6 /* RekvizitVCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE68297848C500D45DE6 /* RekvizitVCC.swift */; };
+		D023AE6B297848D100D45DE6 /* RekvizitInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE6A297848D100D45DE6 /* RekvizitInstaller.swift */; };
+		D023AE6D297848DB00D45DE6 /* RekvizitPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE6C297848DB00D45DE6 /* RekvizitPresenter.swift */; };
+		D023AE6F297848ED00D45DE6 /* RekvizitInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE6E297848ED00D45DE6 /* RekvizitInteractor.swift */; };
+		D023AE71297848F900D45DE6 /* RekvizitRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE70297848F900D45DE6 /* RekvizitRouter.swift */; };
+		D023AE7329784A2B00D45DE6 /* MaterialMultilinedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE7229784A2B00D45DE6 /* MaterialMultilinedView.swift */; };
+		D023AE7629784B5B00D45DE6 /* ServiceVCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE7529784B5B00D45DE6 /* ServiceVCC.swift */; };
+		D023AE7829784B6200D45DE6 /* ServiceInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE7729784B6200D45DE6 /* ServiceInstaller.swift */; };
+		D023AE7A29784B6B00D45DE6 /* ServiceInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE7929784B6B00D45DE6 /* ServiceInteractor.swift */; };
+		D023AE7C29784B7300D45DE6 /* ServicePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE7B29784B7300D45DE6 /* ServicePresenter.swift */; };
+		D023AE7E29784B7900D45DE6 /* ServiceRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE7D29784B7900D45DE6 /* ServiceRouter.swift */; };
+		D023AE8029784BC100D45DE6 /* ProductDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE7F29784BC100D45DE6 /* ProductDataModel.swift */; };
+		D023AE8229784C0100D45DE6 /* ServiceTabViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE8129784C0100D45DE6 /* ServiceTabViewCell.swift */; };
+		D023AE8529784C9400D45DE6 /* KursandValVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE8429784C9400D45DE6 /* KursandValVC.swift */; };
+		D023AE8729784C9F00D45DE6 /* KursandValInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE8629784C9F00D45DE6 /* KursandValInstaller.swift */; };
+		D023AE8929784CA700D45DE6 /* KursandValInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE8829784CA700D45DE6 /* KursandValInteractor.swift */; };
+		D023AE8B29784CAE00D45DE6 /* KursandValPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE8A29784CAE00D45DE6 /* KursandValPresenter.swift */; };
+		D023AE8D29784CB600D45DE6 /* KursandValRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE8C29784CB600D45DE6 /* KursandValRouter.swift */; };
+		D023AE8F29784CF600D45DE6 /* ValyutaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE8E29784CF600D45DE6 /* ValyutaModel.swift */; };
+		D023AE9129784D3500D45DE6 /* DPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE9029784D3500D45DE6 /* DPickerController.swift */; };
+		D023AE9329784D7400D45DE6 /* ValyutaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE9229784D7400D45DE6 /* ValyutaTableViewCell.swift */; };
+		D023AE9629784E6B00D45DE6 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE9529784E6B00D45DE6 /* SettingVC.swift */; };
+		D023AE9829784E7300D45DE6 /* SettingInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE9729784E7300D45DE6 /* SettingInstaller.swift */; };
+		D023AE9A29784E7B00D45DE6 /* SettingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE9929784E7B00D45DE6 /* SettingPresenter.swift */; };
+		D023AE9C29784E8100D45DE6 /* SettingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE9B29784E8100D45DE6 /* SettingRouter.swift */; };
+		D023AE9E29784E8900D45DE6 /* SettingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE9D29784E8900D45DE6 /* SettingInteractor.swift */; };
+		D023AEA12978503E00D45DE6 /* ZayavleniyaiPerevodVCc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEA02978503E00D45DE6 /* ZayavleniyaiPerevodVCc.swift */; };
+		D023AEA32978504500D45DE6 /* ZayavleniyaiPerevodVCInstalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEA22978504500D45DE6 /* ZayavleniyaiPerevodVCInstalle.swift */; };
+		D023AEA52978504D00D45DE6 /* ZayavleniyaiPerevodVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEA42978504D00D45DE6 /* ZayavleniyaiPerevodVCPresenter.swift */; };
+		D023AEA72978505600D45DE6 /* ZayavleniyaiPerevodVCInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEA62978505600D45DE6 /* ZayavleniyaiPerevodVCInteractor.swift */; };
+		D023AEA92978506300D45DE6 /* ZayavleniyaiPerevodVCRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEA82978506300D45DE6 /* ZayavleniyaiPerevodVCRouter.swift */; };
+		D023AEAB297850A200D45DE6 /* CardDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEAA297850A200D45DE6 /* CardDM.swift */; };
+		D023AEAD297850BA00D45DE6 /* ZayavleniyaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEAC297850BA00D45DE6 /* ZayavleniyaTableViewCell.swift */; };
+		D023AEB0297851A100D45DE6 /* Platejavc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEAF297851A100D45DE6 /* Platejavc.swift */; };
+		D023AEB2297851AD00D45DE6 /* PlatejaInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEB1297851AD00D45DE6 /* PlatejaInstaller.swift */; };
+		D023AEB4297851B600D45DE6 /* PlatejaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEB3297851B600D45DE6 /* PlatejaPresenter.swift */; };
+		D023AEB6297851C100D45DE6 /* PlatejaInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEB5297851C100D45DE6 /* PlatejaInteractor.swift */; };
+		D023AEB8297851CC00D45DE6 /* PlatejaRotuer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEB7297851CC00D45DE6 /* PlatejaRotuer.swift */; };
+		D023AEBA2978521700D45DE6 /* ProvedyonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEB92978521700D45DE6 /* ProvedyonView.swift */; };
+		D023AEBD2978528300D45DE6 /* HisobraqamlarVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEBC2978528300D45DE6 /* HisobraqamlarVc.swift */; };
+		D023AEBF2978528B00D45DE6 /* HisobraqamlarVCIns.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEBE2978528B00D45DE6 /* HisobraqamlarVCIns.swift */; };
+		D023AEC12978529200D45DE6 /* HisobraqamlarVCPRe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEC02978529200D45DE6 /* HisobraqamlarVCPRe.swift */; };
+		D023AEC32978529A00D45DE6 /* HisobraqamlarVCRout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEC22978529A00D45DE6 /* HisobraqamlarVCRout.swift */; };
+		D023AEC52978529F00D45DE6 /* HisobraqamlarVCInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEC42978529F00D45DE6 /* HisobraqamlarVCInt.swift */; };
+		D023AEC7297852E800D45DE6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEC6297852E800D45DE6 /* CardView.swift */; };
+		D023AECA2978535900D45DE6 /* TestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEC92978535900D45DE6 /* TestVC.swift */; };
+		D023AECC2978536D00D45DE6 /* TestVCInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AECB2978536D00D45DE6 /* TestVCInstaller.swift */; };
+		D023AECE2978537400D45DE6 /* TestVCInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AECD2978537400D45DE6 /* TestVCInteractor.swift */; };
+		D023AED02978537C00D45DE6 /* TestVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AECF2978537C00D45DE6 /* TestVCPresenter.swift */; };
+		D023AED22978538500D45DE6 /* TestVCRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AED12978538500D45DE6 /* TestVCRouter.swift */; };
+		D023AED4297853D200D45DE6 /* TezkorUtkazmaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AED3297853D200D45DE6 /* TezkorUtkazmaView.swift */; };
+		D023AED62978546200D45DE6 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AED52978546200D45DE6 /* MyButton.swift */; };
+		D023AED82978548400D45DE6 /* MainOperationview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AED72978548400D45DE6 /* MainOperationview.swift */; };
+		D023AEDA297854BD00D45DE6 /* FSPGCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AED9297854BD00D45DE6 /* FSPGCell.swift */; };
+		D023AEDC297854D900D45DE6 /* MyTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEDB297854D900D45DE6 /* MyTxtField.swift */; };
+		D023AEDE2978550700D45DE6 /* CardVVVVV.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEDD2978550700D45DE6 /* CardVVVVV.swift */; };
+		D023AEE02978553200D45DE6 /* MainOperationDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEDF2978553200D45DE6 /* MainOperationDM.swift */; };
+		D023AEE329790C8000D45DE6 /* ZayavkaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEE229790C8000D45DE6 /* ZayavkaVC.swift */; };
+		D023AEE529790C8A00D45DE6 /* ZayavkaVCInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEE429790C8A00D45DE6 /* ZayavkaVCInstaller.swift */; };
+		D023AEE729790C9600D45DE6 /* ZayavkaVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEE629790C9600D45DE6 /* ZayavkaVCPresenter.swift */; };
+		D023AEE929790CA500D45DE6 /* ZayavkaVCInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEE829790CA500D45DE6 /* ZayavkaVCInteractor.swift */; };
+		D023AEEB29790CAB00D45DE6 /* ZayavkaRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEEA29790CAB00D45DE6 /* ZayavkaRouter.swift */; };
+		D023AEF12979101F00D45DE6 /* UIViewEXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEF02979101F00D45DE6 /* UIViewEXT.swift */; };
+		D023AEF32979107500D45DE6 /* StringEXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEF22979107500D45DE6 /* StringEXT.swift */; };
+		D023AEF5297910CD00D45DE6 /* UIColorEXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEF4297910CD00D45DE6 /* UIColorEXT.swift */; };
+		D023AEF72979111900D45DE6 /* FloatingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEF62979111900D45DE6 /* FloatingTextField.swift */; };
+		D023AEF92979113F00D45DE6 /* HomeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEF82979113F00D45DE6 /* HomeHeader.swift */; };
+		D023AEFB297911DB00D45DE6 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEFA297911DB00D45DE6 /* BaseRouter.swift */; };
+		D023AEFD2979123800D45DE6 /* ViewInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEFC2979123800D45DE6 /* ViewInstaller.swift */; };
+		D023AEFF2979124200D45DE6 /* PresentationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AEFE2979124200D45DE6 /* PresentationProtocol.swift */; };
+		D023AF01297912DF00D45DE6 /* SchetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AF00297912DF00D45DE6 /* SchetView.swift */; };
+		D023AF03297912F100D45DE6 /* MaterialMultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AF02297912F100D45DE6 /* MaterialMultilineTextField.swift */; };
+		D023AF052979136200D45DE6 /* CustomSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AF042979136200D45DE6 /* CustomSegmentControl.swift */; };
 		D025093529702136003DAEE0 /* CalendarDialogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D025093429702136003DAEE0 /* CalendarDialogController.swift */; };
+		D02AEC0529759BAD001A8C9B /* MavjudMablagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02AEC0429759BAD001A8C9B /* MavjudMablagView.swift */; };
+		D02AEC072975A449001A8C9B /* CustomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02AEC062975A449001A8C9B /* CustomScrollView.swift */; };
+		D02AEC0929766844001A8C9B /* KartalarTabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02AEC0829766844001A8C9B /* KartalarTabCell.swift */; };
+		D02AEC0B29766EE1001A8C9B /* KartalarExpandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02AEC0A29766EE1001A8C9B /* KartalarExpandingView.swift */; };
+		D02AEC0D2976AC5D001A8C9B /* FilialAndLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02AEC0C2976AC5D001A8C9B /* FilialAndLocationView.swift */; };
+		D030164B29745DA400377832 /* AqlliUtkazmaVV.swift in Sources */ = {isa = PBXBuildFile; fileRef = D030164A29745DA400377832 /* AqlliUtkazmaVV.swift */; };
+		D030164D2975267400377832 /* CustomTXTField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D030164C2975267400377832 /* CustomTXTField.swift */; };
+		D030164F2975354300377832 /* ReklamaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D030164E2975354300377832 /* ReklamaView.swift */; };
+		D03E32A82973BF500061025C /* IpotekaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E32A72973BF500061025C /* IpotekaVC.swift */; };
+		D03E32AA2973BF590061025C /* IpotekaVCInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E32A92973BF590061025C /* IpotekaVCInstaller.swift */; };
+		D03E32AC2973BF620061025C /* IpotekaVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E32AB2973BF620061025C /* IpotekaVCPresenter.swift */; };
+		D03E32AE2973BF6F0061025C /* IpotekaVCInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E32AD2973BF6F0061025C /* IpotekaVCInteractor.swift */; };
+		D03E32B02973BF770061025C /* IpotekaVCRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E32AF2973BF770061025C /* IpotekaVCRouter.swift */; };
+		D03E32B42973C2800061025C /* HomeHeaderV.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E32B32973C2800061025C /* HomeHeaderV.swift */; };
+		D03E32B62973E9D00061025C /* StoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E32B52973E9D00061025C /* StoryCollectionViewCell.swift */; };
 		D04184CD296E767F00DCA40C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04184CC296E767F00DCA40C /* AppDelegate.swift */; };
-		D04184D1296E767F00DCA40C /* RMTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04184D0296E767F00DCA40C /* RMTabViewController.swift */; };
 		D04184D4296E767F00DCA40C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04184D2296E767F00DCA40C /* Main.storyboard */; };
 		D04184D6296E768000DCA40C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04184D5296E768000DCA40C /* Assets.xcassets */; };
 		D04184D9296E768000DCA40C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04184D7296E768000DCA40C /* LaunchScreen.storyboard */; };
-		D04184E8296E7BBE00DCA40C /* RMCharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04184E7296E7BBE00DCA40C /* RMCharacterViewController.swift */; };
-		D04184EA296E7BD400DCA40C /* RMLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04184E9296E7BD400DCA40C /* RMLocationViewController.swift */; };
-		D04184EC296E7BE000DCA40C /* RMEpisodesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04184EB296E7BE000DCA40C /* RMEpisodesViewController.swift */; };
-		D04184EE296E7BED00DCA40C /* RMSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04184ED296E7BED00DCA40C /* RMSettingsViewController.swift */; };
-		D0560987296FE26300C456BB /* SettingVCRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0560980296FE26300C456BB /* SettingVCRouter.swift */; };
-		D0560988296FE26300C456BB /* SettingVCInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0560981296FE26300C456BB /* SettingVCInteractor.swift */; };
+		D046B8FF297170170031D14E /* SwipeGestureUSedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D046B8FE297170170031D14E /* SwipeGestureUSedViewController.swift */; };
+		D046B902297183590031D14E /* ExpandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D046B901297183590031D14E /* ExpandingView.swift */; };
+		D046B9052971854B0031D14E /* PaymentConfirmationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D046B9042971854B0031D14E /* PaymentConfirmationVC.swift */; };
+		D046B9072971855A0031D14E /* PaymentConfirmationInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D046B9062971855A0031D14E /* PaymentConfirmationInstaller.swift */; };
+		D046B909297185690031D14E /* PaymentConfirmationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D046B908297185690031D14E /* PaymentConfirmationPresenter.swift */; };
+		D046B90B297185760031D14E /* PaymentConfirmationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D046B90A297185760031D14E /* PaymentConfirmationInteractor.swift */; };
+		D046B90D297185840031D14E /* PaymentConfirmationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D046B90C297185840031D14E /* PaymentConfirmationRouter.swift */; };
 		D0560989296FE26300C456BB /* StandartOrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0560982296FE26300C456BB /* StandartOrdersView.swift */; };
-		D056098A296FE26300C456BB /* SettingVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0560983296FE26300C456BB /* SettingVCPresenter.swift */; };
-		D056098B296FE26300C456BB /* SettingVCInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0560984296FE26300C456BB /* SettingVCInstaller.swift */; };
-		D056098C296FE26300C456BB /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0560985296FE26300C456BB /* SettingVC.swift */; };
 		D056098D296FE26300C456BB /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0560986296FE26300C456BB /* ItemView.swift */; };
 		D056098F296FE29200C456BB /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056098E296FE29200C456BB /* BaseViewController.swift */; };
 		D0560991296FE2A000C456BB /* OrdersDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0560990296FE2A000C456BB /* OrdersDataModel.swift */; };
-		D0908256296ED7D400C1D9EE /* RMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0908255296ED7D400C1D9EE /* RMService.swift */; };
-		D0908258296ED87F00C1D9EE /* RMRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0908257296ED87F00C1D9EE /* RMRequest.swift */; };
-		D090825A296ED90300C1D9EE /* RMEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0908259296ED90300C1D9EE /* RMEndpoint.swift */; };
-		D090825C296EDA0A00C1D9EE /* RMLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090825B296EDA0A00C1D9EE /* RMLocation.swift */; };
-		D090825E296EDA1400C1D9EE /* RMEpisode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090825D296EDA1400C1D9EE /* RMEpisode.swift */; };
-		D0908260296EDA2500C1D9EE /* RMCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090825F296EDA2500C1D9EE /* RMCharacter.swift */; };
-		D0D47671296FE3230069D9F6 /* FloatingTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D4766B296FE3230069D9F6 /* FloatingTextFieldView.swift */; };
-		D0D47672296FE3230069D9F6 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D4766C296FE3230069D9F6 /* HomeHeaderView.swift */; };
-		D0D47673296FE3230069D9F6 /* ExpandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D4766D296FE3230069D9F6 /* ExpandingView.swift */; };
 		D0D47674296FE3230069D9F6 /* HomePlatejiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D4766E296FE3230069D9F6 /* HomePlatejiView.swift */; };
 		D0D47675296FE3230069D9F6 /* HomeValyutaCollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D4766F296FE3230069D9F6 /* HomeValyutaCollViewCell.swift */; };
-		D0D4767B296FE4250069D9F6 /* String+EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D47677296FE4250069D9F6 /* String+EXT.swift */; };
-		D0D4767D296FE4250069D9F6 /* UICOLOR+EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D47679296FE4250069D9F6 /* UICOLOR+EXT.swift */; };
-		D0D4767E296FE4250069D9F6 /* UIView+EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D4767A296FE4250069D9F6 /* UIView+EXT.swift */; };
-		D0D47682296FE49D0069D9F6 /* ViewInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D4767F296FE49D0069D9F6 /* ViewInstaller.swift */; };
-		D0D47684296FE49D0069D9F6 /* PresentationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D47681296FE49D0069D9F6 /* PresentationProtocol.swift */; };
-		D0D4768B296FE5C10069D9F6 /* LichniyKabinetViewInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D47685296FE5C10069D9F6 /* LichniyKabinetViewInstaller.swift */; };
-		D0D4768C296FE5C10069D9F6 /* LichniyKabinetViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D47686296FE5C10069D9F6 /* LichniyKabinetViewRouter.swift */; };
-		D0D4768D296FE5C10069D9F6 /* LichniyKabinetViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D47687296FE5C10069D9F6 /* LichniyKabinetViewInteractor.swift */; };
-		D0D4768E296FE5C10069D9F6 /* LichniyKabinetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D47688296FE5C10069D9F6 /* LichniyKabinetViewController.swift */; };
-		D0D4768F296FE5C10069D9F6 /* LichniyKabinetViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D47689296FE5C10069D9F6 /* LichniyKabinetViewPresenter.swift */; };
-		D0D47690296FE5C10069D9F6 /* ValyutaOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D4768A296FE5C10069D9F6 /* ValyutaOptionViewController.swift */; };
-		D0D47695296FEDDA0069D9F6 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D47693296FED960069D9F6 /* BaseRouter.swift */; };
-		D0D4769A296FEE0D0069D9F6 /* PresentationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D47699296FEE0D0069D9F6 /* PresentationProtocol.swift */; };
-		D0D4769B296FEE0D0069D9F6 /* ViewInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D47698296FEE0D0069D9F6 /* ViewInstaller.swift */; };
-		D0D476AC296FEEEA0069D9F6 /* MaterialMultilineOutlinedView.swift 11-23-14-790.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D476AB296FEEEA0069D9F6 /* MaterialMultilineOutlinedView.swift 11-23-14-790.swift */; };
 		D0D476AF296FF6BC0069D9F6 /* AnketaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D476AE296FF6BC0069D9F6 /* AnketaVC.swift */; };
 		D0D476B1296FF6CC0069D9F6 /* AnketaInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D476B0296FF6CC0069D9F6 /* AnketaInstaller.swift */; };
 		D0D476B3296FF6D60069D9F6 /* AnketaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D476B2296FF6D60069D9F6 /* AnketaPresenter.swift */; };
@@ -71,53 +160,142 @@
 		13FCEF494B80E3E916A71B5A /* Pods-My_MVVM_Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My_MVVM_Project.debug.xcconfig"; path = "Target Support Files/Pods-My_MVVM_Project/Pods-My_MVVM_Project.debug.xcconfig"; sourceTree = "<group>"; };
 		2EAB53FE14A887C6FDACBDE5 /* Pods_My_MVVM_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_MVVM_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42094865F5906BA6E37411E /* Pods-My_MVVM_Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My_MVVM_Project.release.xcconfig"; path = "Target Support Files/Pods-My_MVVM_Project/Pods-My_MVVM_Project.release.xcconfig"; sourceTree = "<group>"; };
+		D01E6D412977BC9F00F8D06A /* ValyutaKursiExpandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValyutaKursiExpandView.swift; sourceTree = "<group>"; };
+		D023AE102977CBD300D45DE6 /* ValyutaExpandStackChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValyutaExpandStackChildView.swift; sourceTree = "<group>"; };
+		D023AE132977E54E00D45DE6 /* IpotekaKartalarVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpotekaKartalarVCViewController.swift; sourceTree = "<group>"; };
+		D023AE152977E55E00D45DE6 /* IpotekaKartalarInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpotekaKartalarInstaller.swift; sourceTree = "<group>"; };
+		D023AE172977E5CB00D45DE6 /* IpotekaKartalarPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpotekaKartalarPresenter.swift; sourceTree = "<group>"; };
+		D023AE192977E5D400D45DE6 /* IpotekaKartalarInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpotekaKartalarInteractor.swift; sourceTree = "<group>"; };
+		D023AE1B2977E5DE00D45DE6 /* IpotekaKartalarRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpotekaKartalarRouter.swift; sourceTree = "<group>"; };
+		D023AE1E2977FC7A00D45DE6 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		D023AE212977FCAD00D45DE6 /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		D023AE2329782DAA00D45DE6 /* AboutCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCardCell.swift; sourceTree = "<group>"; };
+		D023AE252978324000D45DE6 /* PageCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCellModel.swift; sourceTree = "<group>"; };
+		D023AE3C29783D6700D45DE6 /* SchetaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchetaView.swift; sourceTree = "<group>"; };
+		D023AE3F2978407400D45DE6 /* VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC.swift; sourceTree = "<group>"; };
+		D023AE412978407D00D45DE6 /* Installer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Installer.swift; sourceTree = "<group>"; };
+		D023AE432978408600D45DE6 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		D023AE452978408E00D45DE6 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		D023AE472978409300D45DE6 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		D023AE49297841BD00D45DE6 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		D023AE52297845A300D45DE6 /* SferaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SferaVC.swift; sourceTree = "<group>"; };
+		D023AE54297845AC00D45DE6 /* SFERAInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFERAInstaller.swift; sourceTree = "<group>"; };
+		D023AE56297845B500D45DE6 /* SferaPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SferaPresenter.swift; sourceTree = "<group>"; };
+		D023AE58297845C200D45DE6 /* SferaInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SferaInteractor.swift; sourceTree = "<group>"; };
+		D023AE5A297845C800D45DE6 /* SferaRoutere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SferaRoutere.swift; sourceTree = "<group>"; };
+		D023AE5D2978478300D45DE6 /* NextViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewC.swift; sourceTree = "<group>"; };
+		D023AE5F297847AE00D45DE6 /* NextInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextInstaller.swift; sourceTree = "<group>"; };
+		D023AE61297847BD00D45DE6 /* NextInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextInteractor.swift; sourceTree = "<group>"; };
+		D023AE63297847C500D45DE6 /* NextPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextPresenter.swift; sourceTree = "<group>"; };
+		D023AE65297847CD00D45DE6 /* NextRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextRouter.swift; sourceTree = "<group>"; };
+		D023AE68297848C500D45DE6 /* RekvizitVCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RekvizitVCC.swift; sourceTree = "<group>"; };
+		D023AE6A297848D100D45DE6 /* RekvizitInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RekvizitInstaller.swift; sourceTree = "<group>"; };
+		D023AE6C297848DB00D45DE6 /* RekvizitPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RekvizitPresenter.swift; sourceTree = "<group>"; };
+		D023AE6E297848ED00D45DE6 /* RekvizitInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RekvizitInteractor.swift; sourceTree = "<group>"; };
+		D023AE70297848F900D45DE6 /* RekvizitRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RekvizitRouter.swift; sourceTree = "<group>"; };
+		D023AE7229784A2B00D45DE6 /* MaterialMultilinedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialMultilinedView.swift; sourceTree = "<group>"; };
+		D023AE7529784B5B00D45DE6 /* ServiceVCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceVCC.swift; sourceTree = "<group>"; };
+		D023AE7729784B6200D45DE6 /* ServiceInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceInstaller.swift; sourceTree = "<group>"; };
+		D023AE7929784B6B00D45DE6 /* ServiceInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceInteractor.swift; sourceTree = "<group>"; };
+		D023AE7B29784B7300D45DE6 /* ServicePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicePresenter.swift; sourceTree = "<group>"; };
+		D023AE7D29784B7900D45DE6 /* ServiceRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceRouter.swift; sourceTree = "<group>"; };
+		D023AE7F29784BC100D45DE6 /* ProductDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDataModel.swift; sourceTree = "<group>"; };
+		D023AE8129784C0100D45DE6 /* ServiceTabViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceTabViewCell.swift; sourceTree = "<group>"; };
+		D023AE8429784C9400D45DE6 /* KursandValVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KursandValVC.swift; sourceTree = "<group>"; };
+		D023AE8629784C9F00D45DE6 /* KursandValInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KursandValInstaller.swift; sourceTree = "<group>"; };
+		D023AE8829784CA700D45DE6 /* KursandValInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KursandValInteractor.swift; sourceTree = "<group>"; };
+		D023AE8A29784CAE00D45DE6 /* KursandValPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KursandValPresenter.swift; sourceTree = "<group>"; };
+		D023AE8C29784CB600D45DE6 /* KursandValRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KursandValRouter.swift; sourceTree = "<group>"; };
+		D023AE8E29784CF600D45DE6 /* ValyutaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValyutaModel.swift; sourceTree = "<group>"; };
+		D023AE9029784D3500D45DE6 /* DPickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPickerController.swift; sourceTree = "<group>"; };
+		D023AE9229784D7400D45DE6 /* ValyutaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValyutaTableViewCell.swift; sourceTree = "<group>"; };
+		D023AE9529784E6B00D45DE6 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		D023AE9729784E7300D45DE6 /* SettingInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingInstaller.swift; sourceTree = "<group>"; };
+		D023AE9929784E7B00D45DE6 /* SettingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingPresenter.swift; sourceTree = "<group>"; };
+		D023AE9B29784E8100D45DE6 /* SettingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRouter.swift; sourceTree = "<group>"; };
+		D023AE9D29784E8900D45DE6 /* SettingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingInteractor.swift; sourceTree = "<group>"; };
+		D023AEA02978503E00D45DE6 /* ZayavleniyaiPerevodVCc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZayavleniyaiPerevodVCc.swift; sourceTree = "<group>"; };
+		D023AEA22978504500D45DE6 /* ZayavleniyaiPerevodVCInstalle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZayavleniyaiPerevodVCInstalle.swift; sourceTree = "<group>"; };
+		D023AEA42978504D00D45DE6 /* ZayavleniyaiPerevodVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZayavleniyaiPerevodVCPresenter.swift; sourceTree = "<group>"; };
+		D023AEA62978505600D45DE6 /* ZayavleniyaiPerevodVCInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZayavleniyaiPerevodVCInteractor.swift; sourceTree = "<group>"; };
+		D023AEA82978506300D45DE6 /* ZayavleniyaiPerevodVCRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZayavleniyaiPerevodVCRouter.swift; sourceTree = "<group>"; };
+		D023AEAA297850A200D45DE6 /* CardDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDM.swift; sourceTree = "<group>"; };
+		D023AEAC297850BA00D45DE6 /* ZayavleniyaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZayavleniyaTableViewCell.swift; sourceTree = "<group>"; };
+		D023AEAF297851A100D45DE6 /* Platejavc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platejavc.swift; sourceTree = "<group>"; };
+		D023AEB1297851AD00D45DE6 /* PlatejaInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatejaInstaller.swift; sourceTree = "<group>"; };
+		D023AEB3297851B600D45DE6 /* PlatejaPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatejaPresenter.swift; sourceTree = "<group>"; };
+		D023AEB5297851C100D45DE6 /* PlatejaInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatejaInteractor.swift; sourceTree = "<group>"; };
+		D023AEB7297851CC00D45DE6 /* PlatejaRotuer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatejaRotuer.swift; sourceTree = "<group>"; };
+		D023AEB92978521700D45DE6 /* ProvedyonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvedyonView.swift; sourceTree = "<group>"; };
+		D023AEBC2978528300D45DE6 /* HisobraqamlarVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HisobraqamlarVc.swift; sourceTree = "<group>"; };
+		D023AEBE2978528B00D45DE6 /* HisobraqamlarVCIns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HisobraqamlarVCIns.swift; sourceTree = "<group>"; };
+		D023AEC02978529200D45DE6 /* HisobraqamlarVCPRe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HisobraqamlarVCPRe.swift; sourceTree = "<group>"; };
+		D023AEC22978529A00D45DE6 /* HisobraqamlarVCRout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HisobraqamlarVCRout.swift; sourceTree = "<group>"; };
+		D023AEC42978529F00D45DE6 /* HisobraqamlarVCInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HisobraqamlarVCInt.swift; sourceTree = "<group>"; };
+		D023AEC6297852E800D45DE6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		D023AEC92978535900D45DE6 /* TestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVC.swift; sourceTree = "<group>"; };
+		D023AECB2978536D00D45DE6 /* TestVCInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVCInstaller.swift; sourceTree = "<group>"; };
+		D023AECD2978537400D45DE6 /* TestVCInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVCInteractor.swift; sourceTree = "<group>"; };
+		D023AECF2978537C00D45DE6 /* TestVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVCPresenter.swift; sourceTree = "<group>"; };
+		D023AED12978538500D45DE6 /* TestVCRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVCRouter.swift; sourceTree = "<group>"; };
+		D023AED3297853D200D45DE6 /* TezkorUtkazmaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TezkorUtkazmaView.swift; sourceTree = "<group>"; };
+		D023AED52978546200D45DE6 /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
+		D023AED72978548400D45DE6 /* MainOperationview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainOperationview.swift; sourceTree = "<group>"; };
+		D023AED9297854BD00D45DE6 /* FSPGCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSPGCell.swift; sourceTree = "<group>"; };
+		D023AEDB297854D900D45DE6 /* MyTxtField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTxtField.swift; sourceTree = "<group>"; };
+		D023AEDD2978550700D45DE6 /* CardVVVVV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardVVVVV.swift; sourceTree = "<group>"; };
+		D023AEDF2978553200D45DE6 /* MainOperationDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainOperationDM.swift; sourceTree = "<group>"; };
+		D023AEE229790C8000D45DE6 /* ZayavkaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZayavkaVC.swift; sourceTree = "<group>"; };
+		D023AEE429790C8A00D45DE6 /* ZayavkaVCInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZayavkaVCInstaller.swift; sourceTree = "<group>"; };
+		D023AEE629790C9600D45DE6 /* ZayavkaVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZayavkaVCPresenter.swift; sourceTree = "<group>"; };
+		D023AEE829790CA500D45DE6 /* ZayavkaVCInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZayavkaVCInteractor.swift; sourceTree = "<group>"; };
+		D023AEEA29790CAB00D45DE6 /* ZayavkaRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZayavkaRouter.swift; sourceTree = "<group>"; };
+		D023AEF02979101F00D45DE6 /* UIViewEXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewEXT.swift; sourceTree = "<group>"; };
+		D023AEF22979107500D45DE6 /* StringEXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEXT.swift; sourceTree = "<group>"; };
+		D023AEF4297910CD00D45DE6 /* UIColorEXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorEXT.swift; sourceTree = "<group>"; };
+		D023AEF62979111900D45DE6 /* FloatingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTextField.swift; sourceTree = "<group>"; };
+		D023AEF82979113F00D45DE6 /* HomeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeader.swift; sourceTree = "<group>"; };
+		D023AEFA297911DB00D45DE6 /* BaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		D023AEFC2979123800D45DE6 /* ViewInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewInstaller.swift; sourceTree = "<group>"; };
+		D023AEFE2979124200D45DE6 /* PresentationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationProtocol.swift; sourceTree = "<group>"; };
+		D023AF00297912DF00D45DE6 /* SchetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchetView.swift; sourceTree = "<group>"; };
+		D023AF02297912F100D45DE6 /* MaterialMultilineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialMultilineTextField.swift; sourceTree = "<group>"; };
+		D023AF042979136200D45DE6 /* CustomSegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentControl.swift; sourceTree = "<group>"; };
 		D025093429702136003DAEE0 /* CalendarDialogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDialogController.swift; sourceTree = "<group>"; };
+		D02AEC0429759BAD001A8C9B /* MavjudMablagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MavjudMablagView.swift; sourceTree = "<group>"; };
+		D02AEC062975A449001A8C9B /* CustomScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScrollView.swift; sourceTree = "<group>"; };
+		D02AEC0829766844001A8C9B /* KartalarTabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartalarTabCell.swift; sourceTree = "<group>"; };
+		D02AEC0A29766EE1001A8C9B /* KartalarExpandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartalarExpandingView.swift; sourceTree = "<group>"; };
+		D02AEC0C2976AC5D001A8C9B /* FilialAndLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilialAndLocationView.swift; sourceTree = "<group>"; };
+		D030164A29745DA400377832 /* AqlliUtkazmaVV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AqlliUtkazmaVV.swift; sourceTree = "<group>"; };
+		D030164C2975267400377832 /* CustomTXTField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTXTField.swift; sourceTree = "<group>"; };
+		D030164E2975354300377832 /* ReklamaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReklamaView.swift; sourceTree = "<group>"; };
+		D03E32A72973BF500061025C /* IpotekaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpotekaVC.swift; sourceTree = "<group>"; };
+		D03E32A92973BF590061025C /* IpotekaVCInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpotekaVCInstaller.swift; sourceTree = "<group>"; };
+		D03E32AB2973BF620061025C /* IpotekaVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpotekaVCPresenter.swift; sourceTree = "<group>"; };
+		D03E32AD2973BF6F0061025C /* IpotekaVCInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpotekaVCInteractor.swift; sourceTree = "<group>"; };
+		D03E32AF2973BF770061025C /* IpotekaVCRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpotekaVCRouter.swift; sourceTree = "<group>"; };
+		D03E32B32973C2800061025C /* HomeHeaderV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderV.swift; sourceTree = "<group>"; };
+		D03E32B52973E9D00061025C /* StoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		D04184C9296E767F00DCA40C /* My_MVVM_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = My_MVVM_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04184CC296E767F00DCA40C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D04184D0296E767F00DCA40C /* RMTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMTabViewController.swift; sourceTree = "<group>"; };
 		D04184D3296E767F00DCA40C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D04184D5296E768000DCA40C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D04184D8296E768000DCA40C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D04184DA296E768000DCA40C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D04184E7296E7BBE00DCA40C /* RMCharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterViewController.swift; sourceTree = "<group>"; };
-		D04184E9296E7BD400DCA40C /* RMLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLocationViewController.swift; sourceTree = "<group>"; };
-		D04184EB296E7BE000DCA40C /* RMEpisodesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEpisodesViewController.swift; sourceTree = "<group>"; };
-		D04184ED296E7BED00DCA40C /* RMSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSettingsViewController.swift; sourceTree = "<group>"; };
-		D0560980296FE26300C456BB /* SettingVCRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingVCRouter.swift; path = ../../TengeTestTemplate/TengeTestTemplate/SettingVCRouter.swift; sourceTree = "<group>"; };
-		D0560981296FE26300C456BB /* SettingVCInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingVCInteractor.swift; path = ../../TengeTestTemplate/TengeTestTemplate/SettingVCInteractor.swift; sourceTree = "<group>"; };
+		D046B8FE297170170031D14E /* SwipeGestureUSedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeGestureUSedViewController.swift; sourceTree = "<group>"; };
+		D046B901297183590031D14E /* ExpandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingView.swift; sourceTree = "<group>"; };
+		D046B9042971854B0031D14E /* PaymentConfirmationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentConfirmationVC.swift; sourceTree = "<group>"; };
+		D046B9062971855A0031D14E /* PaymentConfirmationInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentConfirmationInstaller.swift; sourceTree = "<group>"; };
+		D046B908297185690031D14E /* PaymentConfirmationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentConfirmationPresenter.swift; sourceTree = "<group>"; };
+		D046B90A297185760031D14E /* PaymentConfirmationInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentConfirmationInteractor.swift; sourceTree = "<group>"; };
+		D046B90C297185840031D14E /* PaymentConfirmationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentConfirmationRouter.swift; sourceTree = "<group>"; };
 		D0560982296FE26300C456BB /* StandartOrdersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StandartOrdersView.swift; path = ../../TengeTestTemplate/TengeTestTemplate/StandartOrdersView.swift; sourceTree = "<group>"; };
-		D0560983296FE26300C456BB /* SettingVCPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingVCPresenter.swift; path = ../../TengeTestTemplate/TengeTestTemplate/SettingVCPresenter.swift; sourceTree = "<group>"; };
-		D0560984296FE26300C456BB /* SettingVCInstaller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingVCInstaller.swift; path = ../../TengeTestTemplate/TengeTestTemplate/SettingVCInstaller.swift; sourceTree = "<group>"; };
-		D0560985296FE26300C456BB /* SettingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingVC.swift; path = ../../TengeTestTemplate/TengeTestTemplate/SettingVC.swift; sourceTree = "<group>"; };
 		D0560986296FE26300C456BB /* ItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemView.swift; path = ../../TengeTestTemplate/TengeTestTemplate/ItemView.swift; sourceTree = "<group>"; };
 		D056098E296FE29200C456BB /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = ../../MyViperProject/MyViperProject/SettingMenuViewController/BaseViewController.swift; sourceTree = "<group>"; };
 		D0560990296FE2A000C456BB /* OrdersDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OrdersDataModel.swift; path = ../../MyViperProject/MyViperProject/SettingMenuViewController/Entity/OrdersDataModel.swift; sourceTree = "<group>"; };
-		D0908255296ED7D400C1D9EE /* RMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMService.swift; sourceTree = "<group>"; };
-		D0908257296ED87F00C1D9EE /* RMRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMRequest.swift; sourceTree = "<group>"; };
-		D0908259296ED90300C1D9EE /* RMEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEndpoint.swift; sourceTree = "<group>"; };
-		D090825B296EDA0A00C1D9EE /* RMLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLocation.swift; sourceTree = "<group>"; };
-		D090825D296EDA1400C1D9EE /* RMEpisode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEpisode.swift; sourceTree = "<group>"; };
-		D090825F296EDA2500C1D9EE /* RMCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacter.swift; sourceTree = "<group>"; };
-		D0D4766B296FE3230069D9F6 /* FloatingTextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatingTextFieldView.swift; path = ../../MyViperProject/MyViperProject/CustomViews/Home/FloatingTextFieldView.swift; sourceTree = "<group>"; };
-		D0D4766C296FE3230069D9F6 /* HomeHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeHeaderView.swift; path = ../../MyViperProject/MyViperProject/CustomViews/Home/HomeHeaderView.swift; sourceTree = "<group>"; };
-		D0D4766D296FE3230069D9F6 /* ExpandingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExpandingView.swift; path = ../../MyViperProject/MyViperProject/CustomViews/Home/ExpandingView.swift; sourceTree = "<group>"; };
 		D0D4766E296FE3230069D9F6 /* HomePlatejiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomePlatejiView.swift; path = ../../MyViperProject/MyViperProject/CustomViews/Home/HomePlatejiView.swift; sourceTree = "<group>"; };
 		D0D4766F296FE3230069D9F6 /* HomeValyutaCollViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeValyutaCollViewCell.swift; path = ../../MyViperProject/MyViperProject/CustomViews/Home/HomeValyutaCollViewCell.swift; sourceTree = "<group>"; };
-		D0D47677296FE4250069D9F6 /* String+EXT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+EXT.swift"; path = "../../MyViperProject/MyViperProject/String+EXT.swift"; sourceTree = "<group>"; };
-		D0D47679296FE4250069D9F6 /* UICOLOR+EXT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UICOLOR+EXT.swift"; path = "../../MyViperProject/MyViperProject/UICOLOR+EXT.swift"; sourceTree = "<group>"; };
-		D0D4767A296FE4250069D9F6 /* UIView+EXT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+EXT.swift"; path = "../../MyViperProject/MyViperProject/UIView+EXT.swift"; sourceTree = "<group>"; };
-		D0D4767F296FE49D0069D9F6 /* ViewInstaller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewInstaller.swift; path = ../../MyViperProject/MyViperProject/ViperExtension/ViewInstaller.swift; sourceTree = "<group>"; };
-		D0D47681296FE49D0069D9F6 /* PresentationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PresentationProtocol.swift; path = ../../MyViperProject/MyViperProject/ViperExtension/PresentationProtocol.swift; sourceTree = "<group>"; };
-		D0D47685296FE5C10069D9F6 /* LichniyKabinetViewInstaller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LichniyKabinetViewInstaller.swift; path = ../../MyViperProject/MyViperProject/LichniyKabinetViewController/LichniyKabinetViewInstaller.swift; sourceTree = "<group>"; };
-		D0D47686296FE5C10069D9F6 /* LichniyKabinetViewRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LichniyKabinetViewRouter.swift; path = ../../MyViperProject/MyViperProject/LichniyKabinetViewController/LichniyKabinetViewRouter.swift; sourceTree = "<group>"; };
-		D0D47687296FE5C10069D9F6 /* LichniyKabinetViewInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LichniyKabinetViewInteractor.swift; path = ../../MyViperProject/MyViperProject/LichniyKabinetViewController/LichniyKabinetViewInteractor.swift; sourceTree = "<group>"; };
-		D0D47688296FE5C10069D9F6 /* LichniyKabinetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LichniyKabinetViewController.swift; path = ../../MyViperProject/MyViperProject/LichniyKabinetViewController/LichniyKabinetViewController.swift; sourceTree = "<group>"; };
-		D0D47689296FE5C10069D9F6 /* LichniyKabinetViewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LichniyKabinetViewPresenter.swift; path = ../../MyViperProject/MyViperProject/LichniyKabinetViewController/LichniyKabinetViewPresenter.swift; sourceTree = "<group>"; };
-		D0D4768A296FE5C10069D9F6 /* ValyutaOptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ValyutaOptionViewController.swift; path = ../../MyViperProject/MyViperProject/LichniyKabinetViewController/ValyutaOptionViewController.swift; sourceTree = "<group>"; };
-		D0D47693296FED960069D9F6 /* BaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
-		D0D47698296FEE0D0069D9F6 /* ViewInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewInstaller.swift; path = ../../../MyViperProject/MyViperProject/ViperExtension/ViewInstaller.swift; sourceTree = "<group>"; };
-		D0D47699296FEE0D0069D9F6 /* PresentationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PresentationProtocol.swift; path = ../../../MyViperProject/MyViperProject/ViperExtension/PresentationProtocol.swift; sourceTree = "<group>"; };
-		D0D476AB296FEEEA0069D9F6 /* MaterialMultilineOutlinedView.swift 11-23-14-790.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "MaterialMultilineOutlinedView.swift 11-23-14-790.swift"; path = "../../../../../.Trash/MaterialMultilineOutlinedView.swift 11-23-14-790.swift"; sourceTree = "<group>"; };
 		D0D476AE296FF6BC0069D9F6 /* AnketaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnketaVC.swift; sourceTree = "<group>"; };
 		D0D476B0296FF6CC0069D9F6 /* AnketaInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnketaInstaller.swift; sourceTree = "<group>"; };
 		D0D476B2296FF6D60069D9F6 /* AnketaPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnketaPresenter.swift; sourceTree = "<group>"; };
@@ -161,6 +339,256 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		D023AE122977E52400D45DE6 /* IpotekaKartalarVC */ = {
+			isa = PBXGroup;
+			children = (
+				D023AE202977FC9B00D45DE6 /* Entity */,
+				D023AE1D2977FC5300D45DE6 /* CustomViews */,
+				D023AE132977E54E00D45DE6 /* IpotekaKartalarVCViewController.swift */,
+				D023AE152977E55E00D45DE6 /* IpotekaKartalarInstaller.swift */,
+				D023AE172977E5CB00D45DE6 /* IpotekaKartalarPresenter.swift */,
+				D023AE192977E5D400D45DE6 /* IpotekaKartalarInteractor.swift */,
+				D023AE1B2977E5DE00D45DE6 /* IpotekaKartalarRouter.swift */,
+			);
+			path = IpotekaKartalarVC;
+			sourceTree = "<group>";
+		};
+		D023AE1D2977FC5300D45DE6 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				D023AE1E2977FC7A00D45DE6 /* PageView.swift */,
+				D023AE2329782DAA00D45DE6 /* AboutCardCell.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		D023AE202977FC9B00D45DE6 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				D023AE212977FCAD00D45DE6 /* PageModel.swift */,
+				D023AE252978324000D45DE6 /* PageCellModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		D023AE3B29783D5400D45DE6 /* CVC */ = {
+			isa = PBXGroup;
+			children = (
+				D023AE3C29783D6700D45DE6 /* SchetaView.swift */,
+				D023AE7229784A2B00D45DE6 /* MaterialMultilinedView.swift */,
+			);
+			path = CVC;
+			sourceTree = "<group>";
+		};
+		D023AE3E2978402000D45DE6 /* MyViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D023AE3F2978407400D45DE6 /* VC.swift */,
+				D023AE412978407D00D45DE6 /* Installer.swift */,
+				D023AE432978408600D45DE6 /* Presenter.swift */,
+				D023AE452978408E00D45DE6 /* Interactor.swift */,
+				D023AE472978409300D45DE6 /* Router.swift */,
+				D023AE49297841BD00D45DE6 /* Entity.swift */,
+			);
+			path = MyViewController;
+			sourceTree = "<group>";
+		};
+		D023AE512978459100D45DE6 /* SferaDeyatelnostVC */ = {
+			isa = PBXGroup;
+			children = (
+				D023AE52297845A300D45DE6 /* SferaVC.swift */,
+				D023AE54297845AC00D45DE6 /* SFERAInstaller.swift */,
+				D023AE56297845B500D45DE6 /* SferaPresenter.swift */,
+				D023AE58297845C200D45DE6 /* SferaInteractor.swift */,
+				D023AE5A297845C800D45DE6 /* SferaRoutere.swift */,
+			);
+			path = SferaDeyatelnostVC;
+			sourceTree = "<group>";
+		};
+		D023AE5C2978476E00D45DE6 /* NextVC */ = {
+			isa = PBXGroup;
+			children = (
+				D023AE5D2978478300D45DE6 /* NextViewC.swift */,
+				D023AE5F297847AE00D45DE6 /* NextInstaller.swift */,
+				D023AE61297847BD00D45DE6 /* NextInteractor.swift */,
+				D023AE63297847C500D45DE6 /* NextPresenter.swift */,
+				D023AE65297847CD00D45DE6 /* NextRouter.swift */,
+			);
+			path = NextVC;
+			sourceTree = "<group>";
+		};
+		D023AE67297848AC00D45DE6 /* RekvizitVC */ = {
+			isa = PBXGroup;
+			children = (
+				D023AE68297848C500D45DE6 /* RekvizitVCC.swift */,
+				D023AE6A297848D100D45DE6 /* RekvizitInstaller.swift */,
+				D023AE6C297848DB00D45DE6 /* RekvizitPresenter.swift */,
+				D023AE6E297848ED00D45DE6 /* RekvizitInteractor.swift */,
+				D023AE70297848F900D45DE6 /* RekvizitRouter.swift */,
+			);
+			path = RekvizitVC;
+			sourceTree = "<group>";
+		};
+		D023AE7429784B3D00D45DE6 /* ServiceVC */ = {
+			isa = PBXGroup;
+			children = (
+				D023AE7529784B5B00D45DE6 /* ServiceVCC.swift */,
+				D023AE7729784B6200D45DE6 /* ServiceInstaller.swift */,
+				D023AE7929784B6B00D45DE6 /* ServiceInteractor.swift */,
+				D023AE7B29784B7300D45DE6 /* ServicePresenter.swift */,
+				D023AE7D29784B7900D45DE6 /* ServiceRouter.swift */,
+				D023AE7F29784BC100D45DE6 /* ProductDataModel.swift */,
+				D023AE8129784C0100D45DE6 /* ServiceTabViewCell.swift */,
+			);
+			path = ServiceVC;
+			sourceTree = "<group>";
+		};
+		D023AE8329784C7B00D45DE6 /* KursandValyutaVC */ = {
+			isa = PBXGroup;
+			children = (
+				D023AE8429784C9400D45DE6 /* KursandValVC.swift */,
+				D023AE8629784C9F00D45DE6 /* KursandValInstaller.swift */,
+				D023AE8829784CA700D45DE6 /* KursandValInteractor.swift */,
+				D023AE8A29784CAE00D45DE6 /* KursandValPresenter.swift */,
+				D023AE8C29784CB600D45DE6 /* KursandValRouter.swift */,
+				D023AE8E29784CF600D45DE6 /* ValyutaModel.swift */,
+				D023AE9029784D3500D45DE6 /* DPickerController.swift */,
+				D023AE9229784D7400D45DE6 /* ValyutaTableViewCell.swift */,
+			);
+			path = KursandValyutaVC;
+			sourceTree = "<group>";
+		};
+		D023AE9429784E6000D45DE6 /* Settingvc */ = {
+			isa = PBXGroup;
+			children = (
+				D023AE9529784E6B00D45DE6 /* SettingVC.swift */,
+				D023AE9729784E7300D45DE6 /* SettingInstaller.swift */,
+				D023AE9929784E7B00D45DE6 /* SettingPresenter.swift */,
+				D023AE9B29784E8100D45DE6 /* SettingRouter.swift */,
+				D023AE9D29784E8900D45DE6 /* SettingInteractor.swift */,
+			);
+			path = Settingvc;
+			sourceTree = "<group>";
+		};
+		D023AE9F2978503400D45DE6 /* ZayavleniyaiPerevodVC */ = {
+			isa = PBXGroup;
+			children = (
+				D023AEA02978503E00D45DE6 /* ZayavleniyaiPerevodVCc.swift */,
+				D023AEA22978504500D45DE6 /* ZayavleniyaiPerevodVCInstalle.swift */,
+				D023AEA42978504D00D45DE6 /* ZayavleniyaiPerevodVCPresenter.swift */,
+				D023AEA62978505600D45DE6 /* ZayavleniyaiPerevodVCInteractor.swift */,
+				D023AEA82978506300D45DE6 /* ZayavleniyaiPerevodVCRouter.swift */,
+				D023AEAA297850A200D45DE6 /* CardDM.swift */,
+				D023AEAC297850BA00D45DE6 /* ZayavleniyaTableViewCell.swift */,
+			);
+			path = ZayavleniyaiPerevodVC;
+			sourceTree = "<group>";
+		};
+		D023AEAE2978518400D45DE6 /* PlatejaVC */ = {
+			isa = PBXGroup;
+			children = (
+				D023AEAF297851A100D45DE6 /* Platejavc.swift */,
+				D023AEB1297851AD00D45DE6 /* PlatejaInstaller.swift */,
+				D023AEB3297851B600D45DE6 /* PlatejaPresenter.swift */,
+				D023AEB5297851C100D45DE6 /* PlatejaInteractor.swift */,
+				D023AEB7297851CC00D45DE6 /* PlatejaRotuer.swift */,
+				D023AEB92978521700D45DE6 /* ProvedyonView.swift */,
+			);
+			path = PlatejaVC;
+			sourceTree = "<group>";
+		};
+		D023AEBB2978527400D45DE6 /* HisobraqamlarVC */ = {
+			isa = PBXGroup;
+			children = (
+				D023AEBC2978528300D45DE6 /* HisobraqamlarVc.swift */,
+				D023AEBE2978528B00D45DE6 /* HisobraqamlarVCIns.swift */,
+				D023AEC02978529200D45DE6 /* HisobraqamlarVCPRe.swift */,
+				D023AEC22978529A00D45DE6 /* HisobraqamlarVCRout.swift */,
+				D023AEC42978529F00D45DE6 /* HisobraqamlarVCInt.swift */,
+				D023AEC6297852E800D45DE6 /* CardView.swift */,
+			);
+			path = HisobraqamlarVC;
+			sourceTree = "<group>";
+		};
+		D023AEC82978534C00D45DE6 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				D023AEC92978535900D45DE6 /* TestVC.swift */,
+				D023AECB2978536D00D45DE6 /* TestVCInstaller.swift */,
+				D023AECD2978537400D45DE6 /* TestVCInteractor.swift */,
+				D023AECF2978537C00D45DE6 /* TestVCPresenter.swift */,
+				D023AED12978538500D45DE6 /* TestVCRouter.swift */,
+				D023AED3297853D200D45DE6 /* TezkorUtkazmaView.swift */,
+				D023AED52978546200D45DE6 /* MyButton.swift */,
+				D023AED72978548400D45DE6 /* MainOperationview.swift */,
+				D023AED9297854BD00D45DE6 /* FSPGCell.swift */,
+				D023AEDB297854D900D45DE6 /* MyTxtField.swift */,
+				D023AEDD2978550700D45DE6 /* CardVVVVV.swift */,
+				D023AEDF2978553200D45DE6 /* MainOperationDM.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		D023AEE129790C5E00D45DE6 /* ZayavkaViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D023AEE229790C8000D45DE6 /* ZayavkaVC.swift */,
+				D023AEE429790C8A00D45DE6 /* ZayavkaVCInstaller.swift */,
+				D023AEE629790C9600D45DE6 /* ZayavkaVCPresenter.swift */,
+				D023AEE829790CA500D45DE6 /* ZayavkaVCInteractor.swift */,
+				D023AEEA29790CAB00D45DE6 /* ZayavkaRouter.swift */,
+			);
+			path = ZayavkaViewController;
+			sourceTree = "<group>";
+		};
+		D023AEEC29790FC600D45DE6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D023AEF02979101F00D45DE6 /* UIViewEXT.swift */,
+				D023AEF22979107500D45DE6 /* StringEXT.swift */,
+				D023AEF4297910CD00D45DE6 /* UIColorEXT.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D03E32A62973BF2D0061025C /* IpotekaRetailHomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				D03E32B22973C2500061025C /* CustomCells */,
+				D03E32B12973C2340061025C /* CustomVC */,
+				D03E32A72973BF500061025C /* IpotekaVC.swift */,
+				D03E32A92973BF590061025C /* IpotekaVCInstaller.swift */,
+				D03E32AB2973BF620061025C /* IpotekaVCPresenter.swift */,
+				D03E32AD2973BF6F0061025C /* IpotekaVCInteractor.swift */,
+				D03E32AF2973BF770061025C /* IpotekaVCRouter.swift */,
+			);
+			path = IpotekaRetailHomeVC;
+			sourceTree = "<group>";
+		};
+		D03E32B12973C2340061025C /* CustomVC */ = {
+			isa = PBXGroup;
+			children = (
+				D03E32B32973C2800061025C /* HomeHeaderV.swift */,
+				D030164A29745DA400377832 /* AqlliUtkazmaVV.swift */,
+				D030164C2975267400377832 /* CustomTXTField.swift */,
+				D030164E2975354300377832 /* ReklamaView.swift */,
+				D02AEC0429759BAD001A8C9B /* MavjudMablagView.swift */,
+				D02AEC062975A449001A8C9B /* CustomScrollView.swift */,
+				D02AEC0C2976AC5D001A8C9B /* FilialAndLocationView.swift */,
+				D023AE102977CBD300D45DE6 /* ValyutaExpandStackChildView.swift */,
+			);
+			path = CustomVC;
+			sourceTree = "<group>";
+		};
+		D03E32B22973C2500061025C /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				D03E32B52973E9D00061025C /* StoryCollectionViewCell.swift */,
+				D02AEC0829766844001A8C9B /* KartalarTabCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
 		D04184C0296E767F00DCA40C = {
 			isa = PBXGroup;
 			children = (
@@ -182,81 +610,38 @@
 		D04184CB296E767F00DCA40C /* My_MVVM_Project */ = {
 			isa = PBXGroup;
 			children = (
+				D023AEE129790C5E00D45DE6 /* ZayavkaViewController */,
+				D023AEC82978534C00D45DE6 /* Test */,
+				D023AEBB2978527400D45DE6 /* HisobraqamlarVC */,
+				D023AEAE2978518400D45DE6 /* PlatejaVC */,
+				D023AE9F2978503400D45DE6 /* ZayavleniyaiPerevodVC */,
+				D023AE9429784E6000D45DE6 /* Settingvc */,
+				D023AE8329784C7B00D45DE6 /* KursandValyutaVC */,
+				D023AE7429784B3D00D45DE6 /* ServiceVC */,
+				D023AE67297848AC00D45DE6 /* RekvizitVC */,
+				D023AE5C2978476E00D45DE6 /* NextVC */,
+				D023AE512978459100D45DE6 /* SferaDeyatelnostVC */,
+				D023AE3E2978402000D45DE6 /* MyViewController */,
+				D023AE3B29783D5400D45DE6 /* CVC */,
+				D023AE122977E52400D45DE6 /* IpotekaKartalarVC */,
+				D03E32A62973BF2D0061025C /* IpotekaRetailHomeVC */,
+				D046B9032971852A0031D14E /* PaymentConfirmations */,
+				D046B900297183460031D14E /* CustomViews */,
 				D0D476B8296FF98C0069D9F6 /* HomeVC */,
 				D0D476AD296FF1EF0069D9F6 /* AnketaVC */,
+				D0D47691296FED960069D9F6 /* ViperExtension */,
 				D056098E296FE29200C456BB /* BaseViewController.swift */,
-				D0D4766D296FE3230069D9F6 /* ExpandingView.swift */,
-				D0D4766B296FE3230069D9F6 /* FloatingTextFieldView.swift */,
-				D0D4766C296FE3230069D9F6 /* HomeHeaderView.swift */,
-				D0D47677296FE4250069D9F6 /* String+EXT.swift */,
-				D0D47679296FE4250069D9F6 /* UICOLOR+EXT.swift */,
-				D0D4767A296FE4250069D9F6 /* UIView+EXT.swift */,
+				D023AEEC29790FC600D45DE6 /* Extensions */,
 				D0D4766E296FE3230069D9F6 /* HomePlatejiView.swift */,
 				D0D4766F296FE3230069D9F6 /* HomeValyutaCollViewCell.swift */,
 				D0560986296FE26300C456BB /* ItemView.swift */,
-				D0D476AB296FEEEA0069D9F6 /* MaterialMultilineOutlinedView.swift 11-23-14-790.swift */,
-				D0560985296FE26300C456BB /* SettingVC.swift */,
-				D0560984296FE26300C456BB /* SettingVCInstaller.swift */,
-				D0D47691296FED960069D9F6 /* ViperExtension */,
-				D0D47681296FE49D0069D9F6 /* PresentationProtocol.swift */,
-				D0D4767F296FE49D0069D9F6 /* ViewInstaller.swift */,
-				D0D47688296FE5C10069D9F6 /* LichniyKabinetViewController.swift */,
-				D0D47685296FE5C10069D9F6 /* LichniyKabinetViewInstaller.swift */,
-				D0D47687296FE5C10069D9F6 /* LichniyKabinetViewInteractor.swift */,
-				D0D47689296FE5C10069D9F6 /* LichniyKabinetViewPresenter.swift */,
-				D0D47686296FE5C10069D9F6 /* LichniyKabinetViewRouter.swift */,
-				D0D4768A296FE5C10069D9F6 /* ValyutaOptionViewController.swift */,
-				D0560981296FE26300C456BB /* SettingVCInteractor.swift */,
-				D0560983296FE26300C456BB /* SettingVCPresenter.swift */,
 				D0560990296FE2A000C456BB /* OrdersDataModel.swift */,
-				D0560980296FE26300C456BB /* SettingVCRouter.swift */,
 				D0560982296FE26300C456BB /* StandartOrdersView.swift */,
-				D04184E6296E7A2B00DCA40C /* Managers */,
-				D04184E5296E7A1D00DCA40C /* APIClient */,
-				D04184E3296E79EA00DCA40C /* Controllers */,
-				D04184E2296E79C200DCA40C /* ViewModels */,
-				D04184E1296E79BA00DCA40C /* Views */,
-				D04184E0296E79AB00DCA40C /* Models */,
 				D04184E4296E79F400DCA40C /* Resources */,
 				D04184DA296E768000DCA40C /* Info.plist */,
+				D046B8FE297170170031D14E /* SwipeGestureUSedViewController.swift */,
 			);
 			path = My_MVVM_Project;
-			sourceTree = "<group>";
-		};
-		D04184E0296E79AB00DCA40C /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				D090825B296EDA0A00C1D9EE /* RMLocation.swift */,
-				D090825D296EDA1400C1D9EE /* RMEpisode.swift */,
-				D090825F296EDA2500C1D9EE /* RMCharacter.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		D04184E1296E79BA00DCA40C /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		D04184E2296E79C200DCA40C /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		D04184E3296E79EA00DCA40C /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				D04184D0296E767F00DCA40C /* RMTabViewController.swift */,
-				D04184E7296E7BBE00DCA40C /* RMCharacterViewController.swift */,
-				D04184E9296E7BD400DCA40C /* RMLocationViewController.swift */,
-				D04184EB296E7BE000DCA40C /* RMEpisodesViewController.swift */,
-				D04184ED296E7BED00DCA40C /* RMSettingsViewController.swift */,
-			);
-			path = Controllers;
 			sourceTree = "<group>";
 		};
 		D04184E4296E79F400DCA40C /* Resources */ = {
@@ -270,29 +655,39 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		D04184E5296E7A1D00DCA40C /* APIClient */ = {
+		D046B900297183460031D14E /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
-				D0908255296ED7D400C1D9EE /* RMService.swift */,
-				D0908257296ED87F00C1D9EE /* RMRequest.swift */,
-				D0908259296ED90300C1D9EE /* RMEndpoint.swift */,
+				D046B901297183590031D14E /* ExpandingView.swift */,
+				D02AEC0A29766EE1001A8C9B /* KartalarExpandingView.swift */,
+				D01E6D412977BC9F00F8D06A /* ValyutaKursiExpandView.swift */,
+				D023AEF62979111900D45DE6 /* FloatingTextField.swift */,
+				D023AEF82979113F00D45DE6 /* HomeHeader.swift */,
+				D023AF00297912DF00D45DE6 /* SchetView.swift */,
+				D023AF02297912F100D45DE6 /* MaterialMultilineTextField.swift */,
+				D023AF042979136200D45DE6 /* CustomSegmentControl.swift */,
 			);
-			path = APIClient;
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
-		D04184E6296E7A2B00DCA40C /* Managers */ = {
+		D046B9032971852A0031D14E /* PaymentConfirmations */ = {
 			isa = PBXGroup;
 			children = (
+				D046B9042971854B0031D14E /* PaymentConfirmationVC.swift */,
+				D046B9062971855A0031D14E /* PaymentConfirmationInstaller.swift */,
+				D046B908297185690031D14E /* PaymentConfirmationPresenter.swift */,
+				D046B90A297185760031D14E /* PaymentConfirmationInteractor.swift */,
+				D046B90C297185840031D14E /* PaymentConfirmationRouter.swift */,
 			);
-			path = Managers;
+			path = PaymentConfirmations;
 			sourceTree = "<group>";
 		};
 		D0D47691296FED960069D9F6 /* ViperExtension */ = {
 			isa = PBXGroup;
 			children = (
-				D0D47699296FEE0D0069D9F6 /* PresentationProtocol.swift */,
-				D0D47698296FEE0D0069D9F6 /* ViewInstaller.swift */,
-				D0D47693296FED960069D9F6 /* BaseRouter.swift */,
+				D023AEFA297911DB00D45DE6 /* BaseRouter.swift */,
+				D023AEFC2979123800D45DE6 /* ViewInstaller.swift */,
+				D023AEFE2979124200D45DE6 /* PresentationProtocol.swift */,
 			);
 			path = ViperExtension;
 			sourceTree = "<group>";
@@ -439,60 +834,149 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D023AE482978409300D45DE6 /* Router.swift in Sources */,
 				D0D476B7296FF6EE0069D9F6 /* AnketaRouter.swift in Sources */,
-				D0D476AC296FEEEA0069D9F6 /* MaterialMultilineOutlinedView.swift 11-23-14-790.swift in Sources */,
 				D0D47675296FE3230069D9F6 /* HomeValyutaCollViewCell.swift in Sources */,
-				D0908260296EDA2500C1D9EE /* RMCharacter.swift in Sources */,
-				D0D4767D296FE4250069D9F6 /* UICOLOR+EXT.swift in Sources */,
-				D056098C296FE26300C456BB /* SettingVC.swift in Sources */,
-				D04184EE296E7BED00DCA40C /* RMSettingsViewController.swift in Sources */,
-				D0D4769A296FEE0D0069D9F6 /* PresentationProtocol.swift in Sources */,
+				D023AE6F297848ED00D45DE6 /* RekvizitInteractor.swift in Sources */,
 				D0D476B5296FF6E30069D9F6 /* AnketaInteractor.swift in Sources */,
-				D0D4769B296FEE0D0069D9F6 /* ViewInstaller.swift in Sources */,
+				D023AE55297845AC00D45DE6 /* SFERAInstaller.swift in Sources */,
+				D02AEC0929766844001A8C9B /* KartalarTabCell.swift in Sources */,
+				D023AE262978324000D45DE6 /* PageCellModel.swift in Sources */,
+				D023AE1C2977E5DE00D45DE6 /* IpotekaKartalarRouter.swift in Sources */,
+				D023AE8929784CA700D45DE6 /* KursandValInteractor.swift in Sources */,
+				D023AEC52978529F00D45DE6 /* HisobraqamlarVCInt.swift in Sources */,
+				D023AED82978548400D45DE6 /* MainOperationview.swift in Sources */,
+				D023AEC7297852E800D45DE6 /* CardView.swift in Sources */,
 				D056098D296FE26300C456BB /* ItemView.swift in Sources */,
-				D0D47695296FEDDA0069D9F6 /* BaseRouter.swift in Sources */,
-				D0D4768F296FE5C10069D9F6 /* LichniyKabinetViewPresenter.swift in Sources */,
-				D0D4767B296FE4250069D9F6 /* String+EXT.swift in Sources */,
-				D0D47684296FE49D0069D9F6 /* PresentationProtocol.swift in Sources */,
+				D023AE1F2977FC7A00D45DE6 /* PageView.swift in Sources */,
+				D023AE422978407D00D45DE6 /* Installer.swift in Sources */,
+				D03E32A82973BF500061025C /* IpotekaVC.swift in Sources */,
+				D03E32AC2973BF620061025C /* IpotekaVCPresenter.swift in Sources */,
+				D023AEA12978503E00D45DE6 /* ZayavleniyaiPerevodVCc.swift in Sources */,
+				D023AE3D29783D6700D45DE6 /* SchetaView.swift in Sources */,
+				D023AEC12978529200D45DE6 /* HisobraqamlarVCPRe.swift in Sources */,
+				D02AEC072975A449001A8C9B /* CustomScrollView.swift in Sources */,
+				D023AE402978407400D45DE6 /* VC.swift in Sources */,
+				D023AE53297845A300D45DE6 /* SferaVC.swift in Sources */,
+				D023AE8D29784CB600D45DE6 /* KursandValRouter.swift in Sources */,
+				D023AE112977CBD300D45DE6 /* ValyutaExpandStackChildView.swift in Sources */,
+				D023AE8F29784CF600D45DE6 /* ValyutaModel.swift in Sources */,
+				D023AEFF2979124200D45DE6 /* PresentationProtocol.swift in Sources */,
+				D023AE6B297848D100D45DE6 /* RekvizitInstaller.swift in Sources */,
+				D023AEB6297851C100D45DE6 /* PlatejaInteractor.swift in Sources */,
+				D023AECA2978535900D45DE6 /* TestVC.swift in Sources */,
 				D025093529702136003DAEE0 /* CalendarDialogController.swift in Sources */,
-				D056098A296FE26300C456BB /* SettingVCPresenter.swift in Sources */,
+				D023AE5B297845C800D45DE6 /* SferaRoutere.swift in Sources */,
+				D023AED22978538500D45DE6 /* TestVCRouter.swift in Sources */,
+				D023AE66297847CD00D45DE6 /* NextRouter.swift in Sources */,
+				D023AEF72979111900D45DE6 /* FloatingTextField.swift in Sources */,
+				D023AF03297912F100D45DE6 /* MaterialMultilineTextField.swift in Sources */,
+				D023AE5E2978478300D45DE6 /* NextViewC.swift in Sources */,
+				D023AEAB297850A200D45DE6 /* CardDM.swift in Sources */,
+				D023AEDC297854D900D45DE6 /* MyTxtField.swift in Sources */,
+				D023AE7E29784B7900D45DE6 /* ServiceRouter.swift in Sources */,
+				D023AE7329784A2B00D45DE6 /* MaterialMultilinedView.swift in Sources */,
+				D023AEE529790C8A00D45DE6 /* ZayavkaVCInstaller.swift in Sources */,
+				D023AE1A2977E5D400D45DE6 /* IpotekaKartalarInteractor.swift in Sources */,
+				D023AEBD2978528300D45DE6 /* HisobraqamlarVc.swift in Sources */,
+				D023AE9129784D3500D45DE6 /* DPickerController.swift in Sources */,
+				D023AE59297845C200D45DE6 /* SferaInteractor.swift in Sources */,
+				D046B9072971855A0031D14E /* PaymentConfirmationInstaller.swift in Sources */,
+				D023AE7C29784B7300D45DE6 /* ServicePresenter.swift in Sources */,
+				D023AE71297848F900D45DE6 /* RekvizitRouter.swift in Sources */,
 				D056098F296FE29200C456BB /* BaseViewController.swift in Sources */,
+				D023AEA52978504D00D45DE6 /* ZayavleniyaiPerevodVCPresenter.swift in Sources */,
 				D0560989296FE26300C456BB /* StandartOrdersView.swift in Sources */,
-				D056098B296FE26300C456BB /* SettingVCInstaller.swift in Sources */,
+				D023AE162977E55E00D45DE6 /* IpotekaKartalarInstaller.swift in Sources */,
 				D0D476BA296FF9A40069D9F6 /* HomeVC.swift in Sources */,
+				D023AEE929790CA500D45DE6 /* ZayavkaVCInteractor.swift in Sources */,
+				D023AEB0297851A100D45DE6 /* Platejavc.swift in Sources */,
+				D023AE442978408600D45DE6 /* Presenter.swift in Sources */,
+				D023AEBF2978528B00D45DE6 /* HisobraqamlarVCIns.swift in Sources */,
 				D0560991296FE2A000C456BB /* OrdersDataModel.swift in Sources */,
+				D023AE9A29784E7B00D45DE6 /* SettingPresenter.swift in Sources */,
+				D023AED4297853D200D45DE6 /* TezkorUtkazmaView.swift in Sources */,
+				D023AE60297847AE00D45DE6 /* NextInstaller.swift in Sources */,
 				D0D47674296FE3230069D9F6 /* HomePlatejiView.swift in Sources */,
-				D0D4768E296FE5C10069D9F6 /* LichniyKabinetViewController.swift in Sources */,
-				D0560987296FE26300C456BB /* SettingVCRouter.swift in Sources */,
-				D0D47671296FE3230069D9F6 /* FloatingTextFieldView.swift in Sources */,
+				D030164B29745DA400377832 /* AqlliUtkazmaVV.swift in Sources */,
+				D023AE57297845B500D45DE6 /* SferaPresenter.swift in Sources */,
+				D023AE7A29784B6B00D45DE6 /* ServiceInteractor.swift in Sources */,
+				D023AEAD297850BA00D45DE6 /* ZayavleniyaTableViewCell.swift in Sources */,
+				D02AEC0B29766EE1001A8C9B /* KartalarExpandingView.swift in Sources */,
+				D023AE182977E5CB00D45DE6 /* IpotekaKartalarPresenter.swift in Sources */,
+				D023AE62297847BD00D45DE6 /* NextInteractor.swift in Sources */,
+				D023AE6D297848DB00D45DE6 /* RekvizitPresenter.swift in Sources */,
+				D023AEE02978553200D45DE6 /* MainOperationDM.swift in Sources */,
+				D023AECE2978537400D45DE6 /* TestVCInteractor.swift in Sources */,
+				D023AE8729784C9F00D45DE6 /* KursandValInstaller.swift in Sources */,
+				D023AEF92979113F00D45DE6 /* HomeHeader.swift in Sources */,
+				D046B9052971854B0031D14E /* PaymentConfirmationVC.swift in Sources */,
+				D01E6D422977BC9F00F8D06A /* ValyutaKursiExpandView.swift in Sources */,
+				D023AEDA297854BD00D45DE6 /* FSPGCell.swift in Sources */,
 				D0D476C2296FF9FD0069D9F6 /* HomeRouter.swift in Sources */,
-				D04184EA296E7BD400DCA40C /* RMLocationViewController.swift in Sources */,
-				D0908258296ED87F00C1D9EE /* RMRequest.swift in Sources */,
+				D023AE9629784E6B00D45DE6 /* SettingVC.swift in Sources */,
+				D023AE8029784BC100D45DE6 /* ProductDataModel.swift in Sources */,
+				D023AF052979136200D45DE6 /* CustomSegmentControl.swift in Sources */,
+				D023AE7629784B5B00D45DE6 /* ServiceVCC.swift in Sources */,
+				D023AEA72978505600D45DE6 /* ZayavleniyaiPerevodVCInteractor.swift in Sources */,
 				D0D476B3296FF6D60069D9F6 /* AnketaPresenter.swift in Sources */,
-				D0D4768B296FE5C10069D9F6 /* LichniyKabinetViewInstaller.swift in Sources */,
+				D023AE9C29784E8100D45DE6 /* SettingRouter.swift in Sources */,
+				D023AE9E29784E8900D45DE6 /* SettingInteractor.swift in Sources */,
+				D023AE9329784D7400D45DE6 /* ValyutaTableViewCell.swift in Sources */,
+				D03E32B42973C2800061025C /* HomeHeaderV.swift in Sources */,
+				D03E32B02973BF770061025C /* IpotekaVCRouter.swift in Sources */,
 				D0D476B1296FF6CC0069D9F6 /* AnketaInstaller.swift in Sources */,
-				D0908256296ED7D400C1D9EE /* RMService.swift in Sources */,
-				D0D4768C296FE5C10069D9F6 /* LichniyKabinetViewRouter.swift in Sources */,
-				D04184D1296E767F00DCA40C /* RMTabViewController.swift in Sources */,
+				D023AE142977E54E00D45DE6 /* IpotekaKartalarVCViewController.swift in Sources */,
+				D023AEF5297910CD00D45DE6 /* UIColorEXT.swift in Sources */,
 				D0D476C0296FF9F70069D9F6 /* HomeInteractor.swift in Sources */,
-				D04184E8296E7BBE00DCA40C /* RMCharacterViewController.swift in Sources */,
-				D0560988296FE26300C456BB /* SettingVCInteractor.swift in Sources */,
-				D0D4768D296FE5C10069D9F6 /* LichniyKabinetViewInteractor.swift in Sources */,
-				D0D47682296FE49D0069D9F6 /* ViewInstaller.swift in Sources */,
+				D023AEE729790C9600D45DE6 /* ZayavkaVCPresenter.swift in Sources */,
+				D046B90D297185840031D14E /* PaymentConfirmationRouter.swift in Sources */,
+				D046B909297185690031D14E /* PaymentConfirmationPresenter.swift in Sources */,
+				D023AE2429782DAA00D45DE6 /* AboutCardCell.swift in Sources */,
+				D023AE7829784B6200D45DE6 /* ServiceInstaller.swift in Sources */,
+				D023AED62978546200D45DE6 /* MyButton.swift in Sources */,
+				D023AEF32979107500D45DE6 /* StringEXT.swift in Sources */,
+				D023AEF12979101F00D45DE6 /* UIViewEXT.swift in Sources */,
+				D023AEC32978529A00D45DE6 /* HisobraqamlarVCRout.swift in Sources */,
+				D03E32AA2973BF590061025C /* IpotekaVCInstaller.swift in Sources */,
+				D023AF01297912DF00D45DE6 /* SchetView.swift in Sources */,
+				D023AEE329790C8000D45DE6 /* ZayavkaVC.swift in Sources */,
+				D023AE69297848C500D45DE6 /* RekvizitVCC.swift in Sources */,
+				D023AEA32978504500D45DE6 /* ZayavleniyaiPerevodVCInstalle.swift in Sources */,
+				D023AEFB297911DB00D45DE6 /* BaseRouter.swift in Sources */,
 				D0D476BC296FF9D60069D9F6 /* HomeInstaller.swift in Sources */,
-				D090825A296ED90300C1D9EE /* RMEndpoint.swift in Sources */,
-				D090825C296EDA0A00C1D9EE /* RMLocation.swift in Sources */,
-				D04184EC296E7BE000DCA40C /* RMEpisodesViewController.swift in Sources */,
-				D0D4767E296FE4250069D9F6 /* UIView+EXT.swift in Sources */,
+				D023AEB8297851CC00D45DE6 /* PlatejaRotuer.swift in Sources */,
+				D023AED02978537C00D45DE6 /* TestVCPresenter.swift in Sources */,
+				D023AE222977FCAD00D45DE6 /* PageModel.swift in Sources */,
+				D023AECC2978536D00D45DE6 /* TestVCInstaller.swift in Sources */,
+				D030164D2975267400377832 /* CustomTXTField.swift in Sources */,
+				D046B8FF297170170031D14E /* SwipeGestureUSedViewController.swift in Sources */,
+				D023AEEB29790CAB00D45DE6 /* ZayavkaRouter.swift in Sources */,
+				D03E32B62973E9D00061025C /* StoryCollectionViewCell.swift in Sources */,
+				D023AEBA2978521700D45DE6 /* ProvedyonView.swift in Sources */,
+				D023AE4A297841BD00D45DE6 /* Entity.swift in Sources */,
+				D023AE462978408E00D45DE6 /* Interactor.swift in Sources */,
+				D023AEA92978506300D45DE6 /* ZayavleniyaiPerevodVCRouter.swift in Sources */,
+				D023AEFD2979123800D45DE6 /* ViewInstaller.swift in Sources */,
+				D03E32AE2973BF6F0061025C /* IpotekaVCInteractor.swift in Sources */,
+				D023AEB4297851B600D45DE6 /* PlatejaPresenter.swift in Sources */,
+				D023AE8B29784CAE00D45DE6 /* KursandValPresenter.swift in Sources */,
 				D0D476BE296FF9EE0069D9F6 /* HomePresenter.swift in Sources */,
+				D023AE8529784C9400D45DE6 /* KursandValVC.swift in Sources */,
+				D023AE64297847C500D45DE6 /* NextPresenter.swift in Sources */,
+				D046B902297183590031D14E /* ExpandingView.swift in Sources */,
+				D023AEB2297851AD00D45DE6 /* PlatejaInstaller.swift in Sources */,
 				D04184CD296E767F00DCA40C /* AppDelegate.swift in Sources */,
+				D02AEC0529759BAD001A8C9B /* MavjudMablagView.swift in Sources */,
+				D046B90B297185760031D14E /* PaymentConfirmationInteractor.swift in Sources */,
 				D0D476C4297011630069D9F6 /* AnketaDM.swift in Sources */,
-				D0D47672296FE3230069D9F6 /* HomeHeaderView.swift in Sources */,
 				D0D476AF296FF6BC0069D9F6 /* AnketaVC.swift in Sources */,
-				D090825E296EDA1400C1D9EE /* RMEpisode.swift in Sources */,
+				D02AEC0D2976AC5D001A8C9B /* FilialAndLocationView.swift in Sources */,
+				D023AE8229784C0100D45DE6 /* ServiceTabViewCell.swift in Sources */,
+				D023AE9829784E7300D45DE6 /* SettingInstaller.swift in Sources */,
+				D030164F2975354300377832 /* ReklamaView.swift in Sources */,
+				D023AEDE2978550700D45DE6 /* CardVVVVV.swift in Sources */,
 				D0D476C62970121B0069D9F6 /* AnketaTableViewCell.swift in Sources */,
-				D0D47690296FE5C10069D9F6 /* ValyutaOptionViewController.swift in Sources */,
-				D0D47673296FE3230069D9F6 /* ExpandingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
