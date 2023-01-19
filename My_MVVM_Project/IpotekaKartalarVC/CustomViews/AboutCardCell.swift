@@ -24,12 +24,12 @@ class AboutCardCell: UITableViewCell {
             sv.removeFromSuperview()
         }
         
-        titleLbl = UILabel(frame: CGRect(x: 10, y: 10, width: 100, height: 20))
+        titleLbl = UILabel(frame: CGRect(x: 10, y: 12, width: 190, height: 20))
         titleLbl.textColor = .black
         titleLbl.font = .systemFont(ofSize: 14)
         self.contentView.addSubview(titleLbl)
         
-        statusLbl = UILabel(frame: CGRect(x: 10, y: titleLbl.frame.maxY+2, width: 200, height: 30))
+        statusLbl = UILabel(frame: CGRect(x: 10, y: titleLbl.frame.maxY+10, width: 240, height: 30))
         statusLbl.textColor = .black
         statusLbl.font = .boldSystemFont(ofSize: 17)
         self.contentView.addSubview(statusLbl)

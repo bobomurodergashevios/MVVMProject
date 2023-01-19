@@ -67,12 +67,13 @@ extension IpotekaKartalarInstaller {
        
         
         segmentControll = UISegmentedControl(items: ["Ma'lumotlar","Bayonot","Arizalar"])
-        segmentControll.setLayout(selectedFont: UIFont.boldSystemFont(ofSize: 14), normalFont: .boldSystemFont(ofSize: 13))
+        segmentControll.setLayout(selectedFont: UIFont.boldSystemFont(ofSize: 16), normalFont: .boldSystemFont(ofSize: 15))
+        segmentControll.selectedSegmentIndex = 0
         
         
         segmentTableView = UITableView()
         segmentTableView.backgroundColor = .clear
-        
+        segmentTableView.isScrollEnabled = false
         
         segmentWrapperStackView = UIStackView(arrangedSubviews: [segmentControll,segmentTableView])
         segmentWrapperStackView.axis = .vertical
@@ -121,14 +122,14 @@ extension IpotekaKartalarInstaller {
         
         
         segmentWrapperStackView.snp.makeConstraints { make in
-            make.top.equalTo(btn3.snp.bottom).offset(10)
+            make.top.equalTo(btn3.snp.bottom).offset(34)
             make.left.equalToSuperview().offset(10)
             make.right.equalToSuperview().inset(10)
             make.height.equalTo(940)
         }
         
         segmentControll.snp.makeConstraints { make in
-            make.height.equalTo(40)
+            make.height.equalTo(50)
             
         }
         segmentTableView.snp.makeConstraints { make in

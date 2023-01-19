@@ -94,9 +94,11 @@ public class FloatingTextFieldView: UIView {
     private var placeHolder: String = ""
     var previousValue = ""
     public var type: TextFieldType = .simple
+    
     public var isSecured : Bool?
     var txtFld2IsSecure = false
-
+    var isLock = "lock"
+    
     public var didChangeTextCallback: ((String?) -> Void)?
     
     public override init(frame: CGRect) {
@@ -199,17 +201,8 @@ public class FloatingTextFieldView: UIView {
     public func setTextFieldText(text: String) {
         self.updateView(string: text)
     }
-//    public func isSecureTxtEntry (_ isSecure : Bool) {
-//        if isSecure == true {
-//            self.headerLabel.isHidden = isSecure
-//            self.textField.isSecureTextEntry = isSecure
-////            self.textField.text = placeHolder
-//        }else{
-//            self.headerLabel.isHidden = isSecure
-//            self.textField.isSecureTextEntry = isSecure
-//        }
-//
-//    }
+
+    
     public func showValyutaOption(){
         var image = UIImage(named: "USD_F")
         valImg.image = image
@@ -219,6 +212,8 @@ public class FloatingTextFieldView: UIView {
         var image: UIImage
         if #available(iOS 13.0, *) {
             if self.type == .password {
+                if textField.text != placeHolder{
+                    self.textField.isSecureTextEntry = true}
                 image = UIImage(named: "lockkk")!
             }else {
                 image = UIImage(systemName: "chevron.down")!
@@ -231,6 +226,7 @@ public class FloatingTextFieldView: UIView {
         
         dropDownImage.setImage(image, for: .normal)
         if type == .password {
+            self.textField.isSecureTextEntry = false
             dropDownImage.addTarget(self, action: #selector(ontap), for: .touchUpInside)
         }
        
@@ -238,29 +234,35 @@ public class FloatingTextFieldView: UIView {
     
     
     @objc func ontap(){
-        print("aloooo")
-        if txtFld2IsSecure {
-            self.textField.isSecureTextEntry = self.txtFld2IsSecure
-            if textField.text == placeHolder  {
-                
-            }else{
+        if textField.text != placeHolder {
+            if !textField.isSecureTextEntry {
+                isLock = "lock"
                 self.dropDownImage.setImage(UIImage(named: "lockkk"), for: .normal)
-                txtFld2IsSecure = false
-
-            }
-            
-        }else{
-            self.textField.isSecureTextEntry = self.txtFld2IsSecure
-            if textField.text == placeHolder {
-                
-            }else {
+            } else {
+                isLock = "unlock"
                 self.dropDownImage.setImage(UIImage(named: "unlockeddd"), for: .normal)
-                txtFld2IsSecure = true
-
             }
+            self.textField.isSecureTextEntry = !self.textField.isSecureTextEntry
         }
-            
-            
+        
+//        if txtFld2IsSecure {
+//            isLock = "lock"
+//            if textField.text != placeHolder  {
+//
+////                self.textField.isSecureTextEntry = self.txtFld2IsSecure
+//                txtFld2IsSecure = false
+//            }
+//
+//        }else{
+//            isLock = "unlock"
+//            if textField.text != placeHolder {
+//
+//                self.textField.isSecureTextEntry = !self.textField.isSecureTextEntry
+////                self.textField.isSecureTextEntry = self.txtFld2IsSecure
+////                txtFld2IsSecure = true
+//            }
+//        }
+          print(isLock)
     }
     
     public func hideDropDownIcon() {
@@ -275,9 +277,7 @@ public class FloatingTextFieldView: UIView {
             make.bottom.equalToSuperview()
         }
     }
-    //    public func setValyutaOption(){
-    //
-    //    }
+    
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
@@ -309,10 +309,8 @@ public class FloatingTextFieldView: UIView {
             previousValue = self.textField.text ?? ""
             didChangeTextCallback?(textField.text)
         } else if type == .password {
-                self.textField.isSecureTextEntry = isSecured ?? false
-
+            self.dropDownImage.setImage(UIImage(named: "\(self.isLock == "lock" ? "lockkk" : "unlockeddd")"), for: .normal)
                 didChangeTextCallback?(textField.text)
-
         }else{
             didChangeTextCallback?(textField.text)
 
