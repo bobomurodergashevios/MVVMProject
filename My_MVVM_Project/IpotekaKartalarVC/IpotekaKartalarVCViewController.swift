@@ -59,19 +59,26 @@ class IpotekaKartalarVCViewController: UIViewController , IpotekaKartalarVCViewC
     }
     @objc func onHandleSegmented(_ segmentController : UISegmentedControl){
         print("segment changed")
-        if segmentController.selectedSegmentIndex != 0 {
-            dataList = []
-            self.segmentTableView.reloadData()
-        }else{
-            dataList = pageControll.currentPage == 0 ? datalist1 : pageControll.currentPage == 1 ? datalist2 : datalist3
-            self.segmentTableView.reloadData()
+        switch segmentController.selectedSegmentIndex {
+            case 0 : dataList = datalist1
+            case 1,2 : self.dataList.removeAll()
+            default : break
         }
+        self.segmentTableView.reloadData()
+//        if segmentController.selectedSegmentIndex != 0 {
+//            dataList.removeAll()
+//            self.segmentTableView.reloadData()
+//        }else{
+//            dataList = pageControll.currentPage == 0 ? datalist1 : pageControll.currentPage == 1 ? datalist2 : datalist3
+//            self.segmentTableView.reloadData()
+//        }
        
     }
     @objc func pageControllDidchange(_ sender : UIPageControl){
         print("nimadir")
         let current = sender.currentPage
         scrollVieww.setContentOffset(CGPoint(x: CGFloat(current) * self.mainView.frame.width, y: 0), animated: true)
+        
         if sender.currentPage == 0 {
             dataList = datalist1
             self.segmentTableView.reloadData()
@@ -89,16 +96,19 @@ extension IpotekaKartalarVCViewController : UIScrollViewDelegate {
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let pageIndex = round(scrollView.contentOffset.x/view.frame.width)
                 pageControll.currentPage = Int(pageIndex)
-        if pageControll.currentPage == 0 {
-            dataList = datalist1
+        if segmentControll.selectedSegmentIndex == 0 {
+            if pageControll.currentPage == 0 {
+                dataList = datalist1
+            }else if pageControll.currentPage == 1{
+                dataList = datalist2
+            }else if pageControll.currentPage == 2{
+                dataList = datalist3
+            }
             self.segmentTableView.reloadData()
-        }else if pageControll.currentPage == 1{
-            dataList = datalist2
-        }else if pageControll.currentPage == 2{
-            dataList = datalist3
+        } else {
+            dataList.removeAll()
+            self.segmentTableView.reloadData()
         }
-        self.segmentTableView.reloadData()
-       
     }
 }
 extension IpotekaKartalarVCViewController : UITableViewDelegate,UITableViewDataSource {

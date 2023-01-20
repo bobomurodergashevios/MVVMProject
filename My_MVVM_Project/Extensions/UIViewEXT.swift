@@ -9,14 +9,56 @@ import Foundation
 import UIKit
 
 
-
+public enum BorderMode : String {
+    case Top = "top"
+    case Bottom = "bottom"
+    case Left = "left"
+    case Right = "right"
+}
 
 public extension UIView {
 //    func makeConstraint(_ action: @escaping (LayoutGuide) -> Void) {
 //        translatesAutoresizingMaskIntoConstraints = false
 //        action(LayoutGuide(self))
 //    }
-
+    
+        
+        func addBorder(toSide side: BorderMode, withColor color: UIColor, andThickness thickness: CGFloat) {
+                
+                let border = CALayer()
+                border.borderColor = color.cgColor
+            
+                border.name = side.rawValue
+                switch side {
+                case .Left: border.frame = CGRect(x: 0, y: 0, width: thickness, height: frame.height)
+                case .Right: border.frame = CGRect(x: frame.width - thickness, y: 0, width: thickness, height: frame.height)
+                case .Top: border.frame = CGRect(x: 0, y: 0, width: frame.width, height: thickness)
+                case .Bottom: border.frame = CGRect(x: 0, y: frame.height - thickness, width: frame.width, height: thickness)
+                }
+                
+                border.borderWidth = thickness
+                
+                layer.addSublayer(border)
+            }
+            
+            func removeBorder(toSide side: BorderMode) {
+                guard let sublayers = self.layer.sublayers else { return }
+                var layerForRemove: CALayer?
+                for layer in sublayers {
+                    if layer.name == side.rawValue {
+                        layerForRemove = layer
+                    }
+                }
+                if let layer = layerForRemove {
+                    layer.removeFromSuperlayer()
+                }
+            }
+        
+        
+        
+        
+        
+    
     func dropShadow(_ x: CGFloat, _ y: CGFloat, _ blur: CGFloat, _ color: UIColor?, _ alpha: Float, spread: CGFloat = 0) {
         layer.shadowColor = color?.cgColor
         layer.shadowOpacity = alpha

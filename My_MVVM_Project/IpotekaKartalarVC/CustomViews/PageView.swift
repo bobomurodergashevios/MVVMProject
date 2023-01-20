@@ -13,13 +13,12 @@ class PageView: UIView {
     private var cardTitleLbl : UILabel!
     private var cardBalanceLbl : UILabel!
     
-    
-    
         var model : PageModel! {
             didSet {
                 updateView()
             }
         }
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
 
@@ -27,7 +26,6 @@ class PageView: UIView {
         imgView.image = UIImage(named: "humo")
         imgView.contentMode = .scaleAspectFill
         imgView.backgroundColor = .gray
-//        imgView.backgroundColor = .clear
         self.addSubview(imgView)
         
         cardTitleLbl = UILabel(frame: CGRect(x: imgView.frame.maxX+5, y: 15, width: 150, height: 20))
@@ -39,9 +37,6 @@ class PageView: UIView {
         cardBalanceLbl.text = "419.16 UZS"
         cardBalanceLbl.font = .boldSystemFont(ofSize: 18)
         self.addSubview(cardBalanceLbl)
-        
-        
-        
        
         
     }

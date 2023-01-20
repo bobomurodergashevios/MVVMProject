@@ -64,8 +64,6 @@ extension IpotekaKartalarInstaller {
         btn3.layer.borderWidth = 0.2
         
         
-       
-        
         segmentControll = UISegmentedControl(items: ["Ma'lumotlar","Bayonot","Arizalar"])
         segmentControll.setLayout(selectedFont: UIFont.boldSystemFont(ofSize: 16), normalFont: .boldSystemFont(ofSize: 15))
         segmentControll.selectedSegmentIndex = 0

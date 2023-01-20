@@ -40,6 +40,7 @@ class AnketaVC : UIViewController , AnketaVCLogic {
             self.navigationController?.navigationBar.compactAppearance = UINavigationBarAppearance()
             self.navigationController?.navigationBar.scrollEdgeAppearance = UINavigationBarAppearance()
         }
+        self.navigationController?.setNavigationBarHidden(false, animated: true)
     }
     
     

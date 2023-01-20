@@ -48,8 +48,8 @@ class IpotekaKartalarPresenter : IpotekaKartalarPresenterLogic {
             view.page.backgroundColor = .clear
             view.page.model = array[x]
             view.segmentTableView.reloadData()
-            view.page.addBorder(side: .bottom, color: .gray, width: 0.5)
-            view.page.addBorder(side: .top, color: .gray, width: 0.2)
+            view.page.addBorder(toSide: .Bottom, withColor: .gray, andThickness: 0.5)
+            view.page.addBorder(toSide: .Top, withColor: .gray, andThickness: 0.2)
             view.scrollVieww.addSubview(view.page)
         }
         controller.datalist1 = interactor.datList0()
