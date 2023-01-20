@@ -93,7 +93,8 @@ class ValyutaExpandStackChildView: UIView {
         usdStackView.axis = .horizontal
         usdStackView.spacing = 3
         usdStackView.distribution = .equalSpacing
-        usdStackView.addBorder(side: .bottom, color: .black, width: 0.2)
+        usdStackView.addBorder(toSide: .Bottom, withColor: .black , andThickness: 0.2)
+//        usdStackView.addBorder(side: .bottom, color: .black, width: 0.2)
         self.addSubview(usdStackView)
         usdStackView.snp.makeConstraints { make in
             make.left.right.equalToSuperview()
@@ -127,7 +128,8 @@ class ValyutaExpandStackChildView: UIView {
         rubStackView.axis = .horizontal
         rubStackView.spacing = 3
         rubStackView.distribution = .equalSpacing
-        rubStackView.addBorder(side: .bottom, color: .black, width: 0.2)
+        rubStackView.addBorder(toSide: .Bottom, withColor: .black, andThickness: 0.2)
+//        rubStackView.addBorder(side: .bottom, color: .black, width: 0.2)
         self.addSubview(rubStackView)
         rubStackView.snp.makeConstraints { make in
             make.left.right.equalToSuperview()
@@ -160,7 +162,8 @@ class ValyutaExpandStackChildView: UIView {
         eurStackView.axis = .horizontal
         eurStackView.spacing = 3
         eurStackView.distribution = .equalSpacing
-        eurStackView.addBorder(side: .bottom, color: .black, width: 0.2)
+        eurStackView.addBorder(toSide: .Bottom, withColor: .black, andThickness: 0.2)
+//        eurStackView.addBorder(side: .bottom, color: .black, width: 0.2)
         self.addSubview(eurStackView)
         eurStackView.snp.makeConstraints { make in
             make.left.right.equalToSuperview()
@@ -182,35 +185,38 @@ class ValyutaExpandStackChildView: UIView {
 
 
 
-    
-public enum BorderMode {
-    case top, bottom, left, right
-}
-
-extension UIView {
-    public func addBorder(side: BorderMode, color: UIColor, width: CGFloat) {
-        let border = UIView()
-        border.translatesAutoresizingMaskIntoConstraints = false
-        border.backgroundColor = color
-        self.addSubview(border)
-        
-        let topConstraint = topAnchor.constraint(equalTo: border.topAnchor)
-        let rightConstraint = trailingAnchor.constraint(equalTo: border.trailingAnchor)
-        let bottomConstraint = bottomAnchor.constraint(equalTo: border.bottomAnchor)
-        let leftConstraint = leadingAnchor.constraint(equalTo: border.leadingAnchor)
-        let heightConstraint = border.heightAnchor.constraint(equalToConstant: width)
-        let widthConstraint = border.widthAnchor.constraint(equalToConstant: width)
-        
-        
-        switch side {
-        case .top:
-            NSLayoutConstraint.activate([leftConstraint, topConstraint, rightConstraint, heightConstraint])
-        case .right:
-            NSLayoutConstraint.activate([topConstraint, rightConstraint, bottomConstraint, widthConstraint])
-        case .bottom:
-            NSLayoutConstraint.activate([rightConstraint, bottomConstraint, leftConstraint, heightConstraint])
-        case .left:
-            NSLayoutConstraint.activate([bottomConstraint, leftConstraint, topConstraint, widthConstraint])
-        }
-    }
-}
+//    
+//public enum BorderMode : String {
+//    case Top = "top"
+//    case Bottom = "bottom"
+//    case Left = "left"
+//    case Right = "right"
+//}
+//
+//extension UIView {
+//    public func addBorder(side: BorderMode, color: UIColor, width: CGFloat) {
+//        let border = UIView()
+//        border.translatesAutoresizingMaskIntoConstraints = false
+//        border.backgroundColor = color
+//        self.addSubview(border)
+//
+//        let topConstraint = topAnchor.constraint(equalTo: border.topAnchor)
+//        let rightConstraint = trailingAnchor.constraint(equalTo: border.trailingAnchor)
+//        let bottomConstraint = bottomAnchor.constraint(equalTo: border.bottomAnchor)
+//        let leftConstraint = leadingAnchor.constraint(equalTo: border.leadingAnchor)
+//        let heightConstraint = border.heightAnchor.constraint(equalToConstant: width)
+//        let widthConstraint = border.widthAnchor.constraint(equalToConstant: width)
+//
+//
+//        switch side {
+//        case .top:
+//            NSLayoutConstraint.activate([leftConstraint, topConstraint, rightConstraint, heightConstraint])
+//        case .right:
+//            NSLayoutConstraint.activate([topConstraint, rightConstraint, bottomConstraint, widthConstraint])
+//        case .bottom:
+//            NSLayoutConstraint.activate([rightConstraint, bottomConstraint, leftConstraint, heightConstraint])
+//        case .left:
+//            NSLayoutConstraint.activate([bottomConstraint, leftConstraint, topConstraint, widthConstraint])
+//        }
+//    }
+//}

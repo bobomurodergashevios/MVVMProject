@@ -25,11 +25,12 @@ class RekvizitViewRouter : BaseRouter, RekvizitViewRouterLogic {
     
     static func createModule() -> UIViewController {
         let controller = RekvizitViewController()
+        let navCtrl = UINavigationController(rootViewController: controller)
         let router = RekvizitViewRouter(viewController: controller)
         let interactor = RekvizitViewInteractor()
         let presenter = RekvizitViewPresenter(view: controller, interactor: interactor, router: router)
         controller.presenter = presenter
-        return controller
+        return navCtrl
     }
     
     

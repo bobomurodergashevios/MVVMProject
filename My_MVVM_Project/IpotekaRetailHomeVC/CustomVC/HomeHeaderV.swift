@@ -16,7 +16,7 @@ class HomeHeaderV: UIView {
     private var nameLbl : UILabel!
 
     private var rightBtn1 : UIButton!
-    private var rightBtn2 : UIButton!
+    public var rightBtn2 : UIButton!
     
     
     override init(frame: CGRect) {

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A7B14E0BC1D6D758C0B476C2 /* Pods_My_MVVM_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EAB53FE14A887C6FDACBDE5 /* Pods_My_MVVM_Project.framework */; };
+		D0099209297A5FAD00DE3926 /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0099208297A5FAD00DE3926 /* BalanceView.swift */; };
+		D00ECF2129794DDB00A84439 /* UIButtonEXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00ECF2029794DDB00A84439 /* UIButtonEXT.swift */; };
+		D00ECF242979514900A84439 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00ECF232979514900A84439 /* MainTabBarViewController.swift */; };
 		D01E6D422977BC9F00F8D06A /* ValyutaKursiExpandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E6D412977BC9F00F8D06A /* ValyutaKursiExpandView.swift */; };
 		D023AE112977CBD300D45DE6 /* ValyutaExpandStackChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE102977CBD300D45DE6 /* ValyutaExpandStackChildView.swift */; };
 		D023AE142977E54E00D45DE6 /* IpotekaKartalarVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023AE132977E54E00D45DE6 /* IpotekaKartalarVCViewController.swift */; };
@@ -118,6 +121,11 @@
 		D030164B29745DA400377832 /* AqlliUtkazmaVV.swift in Sources */ = {isa = PBXBuildFile; fileRef = D030164A29745DA400377832 /* AqlliUtkazmaVV.swift */; };
 		D030164D2975267400377832 /* CustomTXTField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D030164C2975267400377832 /* CustomTXTField.swift */; };
 		D030164F2975354300377832 /* ReklamaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D030164E2975354300377832 /* ReklamaView.swift */; };
+		D0362B8E297A5B4200FCF46F /* SchetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0362B8D297A5B4200FCF46F /* SchetVC.swift */; };
+		D0362B90297A5B4E00FCF46F /* SchetVCInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0362B8F297A5B4E00FCF46F /* SchetVCInstaller.swift */; };
+		D0362B92297A5B5C00FCF46F /* SchetVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0362B91297A5B5C00FCF46F /* SchetVCPresenter.swift */; };
+		D0362B94297A5B6800FCF46F /* SchetVCInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0362B93297A5B6800FCF46F /* SchetVCInteractor.swift */; };
+		D0362B96297A5B7300FCF46F /* SchetVCRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0362B95297A5B7300FCF46F /* SchetVCRouter.swift */; };
 		D03E32A82973BF500061025C /* IpotekaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E32A72973BF500061025C /* IpotekaVC.swift */; };
 		D03E32AA2973BF590061025C /* IpotekaVCInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E32A92973BF590061025C /* IpotekaVCInstaller.swift */; };
 		D03E32AC2973BF620061025C /* IpotekaVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E32AB2973BF620061025C /* IpotekaVCPresenter.swift */; };
@@ -136,10 +144,14 @@
 		D046B909297185690031D14E /* PaymentConfirmationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D046B908297185690031D14E /* PaymentConfirmationPresenter.swift */; };
 		D046B90B297185760031D14E /* PaymentConfirmationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D046B90A297185760031D14E /* PaymentConfirmationInteractor.swift */; };
 		D046B90D297185840031D14E /* PaymentConfirmationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D046B90C297185840031D14E /* PaymentConfirmationRouter.swift */; };
+		D04B73EF297A6C31001C80DB /* RequiredDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B73EE297A6C31001C80DB /* RequiredDataView.swift */; };
+		D052F900297AB0C200A2953B /* PerevodCardViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D052F8FF297AB0C200A2953B /* PerevodCardViewCell.swift */; };
+		D052F903297AB22F00A2953B /* PerevodCardDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D052F902297AB22F00A2953B /* PerevodCardDM.swift */; };
 		D0560989296FE26300C456BB /* StandartOrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0560982296FE26300C456BB /* StandartOrdersView.swift */; };
 		D056098D296FE26300C456BB /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0560986296FE26300C456BB /* ItemView.swift */; };
 		D056098F296FE29200C456BB /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056098E296FE29200C456BB /* BaseViewController.swift */; };
 		D0560991296FE2A000C456BB /* OrdersDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0560990296FE2A000C456BB /* OrdersDataModel.swift */; };
+		D0CF591F297A73BF00082A82 /* SelectedDataDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CF591E297A73BF00082A82 /* SelectedDataDialog.swift */; };
 		D0D47674296FE3230069D9F6 /* HomePlatejiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D4766E296FE3230069D9F6 /* HomePlatejiView.swift */; };
 		D0D47675296FE3230069D9F6 /* HomeValyutaCollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D4766F296FE3230069D9F6 /* HomeValyutaCollViewCell.swift */; };
 		D0D476AF296FF6BC0069D9F6 /* AnketaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D476AE296FF6BC0069D9F6 /* AnketaVC.swift */; };
@@ -154,12 +166,16 @@
 		D0D476C2296FF9FD0069D9F6 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D476C1296FF9FD0069D9F6 /* HomeRouter.swift */; };
 		D0D476C4297011630069D9F6 /* AnketaDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D476C3297011630069D9F6 /* AnketaDM.swift */; };
 		D0D476C62970121B0069D9F6 /* AnketaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D476C52970121B0069D9F6 /* AnketaTableViewCell.swift */; };
+		D0D5FB7C297A67F8004B0833 /* SchetCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D5FB7B297A67F8004B0833 /* SchetCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		13FCEF494B80E3E916A71B5A /* Pods-My_MVVM_Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My_MVVM_Project.debug.xcconfig"; path = "Target Support Files/Pods-My_MVVM_Project/Pods-My_MVVM_Project.debug.xcconfig"; sourceTree = "<group>"; };
 		2EAB53FE14A887C6FDACBDE5 /* Pods_My_MVVM_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_MVVM_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42094865F5906BA6E37411E /* Pods-My_MVVM_Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My_MVVM_Project.release.xcconfig"; path = "Target Support Files/Pods-My_MVVM_Project/Pods-My_MVVM_Project.release.xcconfig"; sourceTree = "<group>"; };
+		D0099208297A5FAD00DE3926 /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
+		D00ECF2029794DDB00A84439 /* UIButtonEXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonEXT.swift; sourceTree = "<group>"; };
+		D00ECF232979514900A84439 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		D01E6D412977BC9F00F8D06A /* ValyutaKursiExpandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValyutaKursiExpandView.swift; sourceTree = "<group>"; };
 		D023AE102977CBD300D45DE6 /* ValyutaExpandStackChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValyutaExpandStackChildView.swift; sourceTree = "<group>"; };
 		D023AE132977E54E00D45DE6 /* IpotekaKartalarVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpotekaKartalarVCViewController.swift; sourceTree = "<group>"; };
@@ -270,6 +286,11 @@
 		D030164A29745DA400377832 /* AqlliUtkazmaVV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AqlliUtkazmaVV.swift; sourceTree = "<group>"; };
 		D030164C2975267400377832 /* CustomTXTField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTXTField.swift; sourceTree = "<group>"; };
 		D030164E2975354300377832 /* ReklamaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReklamaView.swift; sourceTree = "<group>"; };
+		D0362B8D297A5B4200FCF46F /* SchetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchetVC.swift; sourceTree = "<group>"; };
+		D0362B8F297A5B4E00FCF46F /* SchetVCInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchetVCInstaller.swift; sourceTree = "<group>"; };
+		D0362B91297A5B5C00FCF46F /* SchetVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchetVCPresenter.swift; sourceTree = "<group>"; };
+		D0362B93297A5B6800FCF46F /* SchetVCInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchetVCInteractor.swift; sourceTree = "<group>"; };
+		D0362B95297A5B7300FCF46F /* SchetVCRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchetVCRouter.swift; sourceTree = "<group>"; };
 		D03E32A72973BF500061025C /* IpotekaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpotekaVC.swift; sourceTree = "<group>"; };
 		D03E32A92973BF590061025C /* IpotekaVCInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpotekaVCInstaller.swift; sourceTree = "<group>"; };
 		D03E32AB2973BF620061025C /* IpotekaVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpotekaVCPresenter.swift; sourceTree = "<group>"; };
@@ -290,10 +311,14 @@
 		D046B908297185690031D14E /* PaymentConfirmationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentConfirmationPresenter.swift; sourceTree = "<group>"; };
 		D046B90A297185760031D14E /* PaymentConfirmationInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentConfirmationInteractor.swift; sourceTree = "<group>"; };
 		D046B90C297185840031D14E /* PaymentConfirmationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentConfirmationRouter.swift; sourceTree = "<group>"; };
+		D04B73EE297A6C31001C80DB /* RequiredDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequiredDataView.swift; sourceTree = "<group>"; };
+		D052F8FF297AB0C200A2953B /* PerevodCardViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerevodCardViewCell.swift; sourceTree = "<group>"; };
+		D052F902297AB22F00A2953B /* PerevodCardDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerevodCardDM.swift; sourceTree = "<group>"; };
 		D0560982296FE26300C456BB /* StandartOrdersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StandartOrdersView.swift; path = ../../TengeTestTemplate/TengeTestTemplate/StandartOrdersView.swift; sourceTree = "<group>"; };
 		D0560986296FE26300C456BB /* ItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemView.swift; path = ../../TengeTestTemplate/TengeTestTemplate/ItemView.swift; sourceTree = "<group>"; };
 		D056098E296FE29200C456BB /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = ../../MyViperProject/MyViperProject/SettingMenuViewController/BaseViewController.swift; sourceTree = "<group>"; };
 		D0560990296FE2A000C456BB /* OrdersDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OrdersDataModel.swift; path = ../../MyViperProject/MyViperProject/SettingMenuViewController/Entity/OrdersDataModel.swift; sourceTree = "<group>"; };
+		D0CF591E297A73BF00082A82 /* SelectedDataDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedDataDialog.swift; sourceTree = "<group>"; };
 		D0D4766E296FE3230069D9F6 /* HomePlatejiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomePlatejiView.swift; path = ../../MyViperProject/MyViperProject/CustomViews/Home/HomePlatejiView.swift; sourceTree = "<group>"; };
 		D0D4766F296FE3230069D9F6 /* HomeValyutaCollViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeValyutaCollViewCell.swift; path = ../../MyViperProject/MyViperProject/CustomViews/Home/HomeValyutaCollViewCell.swift; sourceTree = "<group>"; };
 		D0D476AE296FF6BC0069D9F6 /* AnketaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnketaVC.swift; sourceTree = "<group>"; };
@@ -308,6 +333,7 @@
 		D0D476C1296FF9FD0069D9F6 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 		D0D476C3297011630069D9F6 /* AnketaDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnketaDM.swift; sourceTree = "<group>"; };
 		D0D476C52970121B0069D9F6 /* AnketaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnketaTableViewCell.swift; sourceTree = "<group>"; };
+		D0D5FB7B297A67F8004B0833 /* SchetCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchetCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -337,6 +363,26 @@
 				C42094865F5906BA6E37411E /* Pods-My_MVVM_Project.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D0099207297A5F7E00DE3926 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				D0099208297A5FAD00DE3926 /* BalanceView.swift */,
+				D0D5FB7B297A67F8004B0833 /* SchetCardView.swift */,
+				D04B73EE297A6C31001C80DB /* RequiredDataView.swift */,
+				D0CF591E297A73BF00082A82 /* SelectedDataDialog.swift */,
+				D052F8FF297AB0C200A2953B /* PerevodCardViewCell.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		D00ECF222979512100A84439 /* MainTabBarVC */ = {
+			isa = PBXGroup;
+			children = (
+				D00ECF232979514900A84439 /* MainTabBarViewController.swift */,
+			);
+			path = MainTabBarVC;
 			sourceTree = "<group>";
 		};
 		D023AE122977E52400D45DE6 /* IpotekaKartalarVC */ = {
@@ -547,8 +593,23 @@
 				D023AEF02979101F00D45DE6 /* UIViewEXT.swift */,
 				D023AEF22979107500D45DE6 /* StringEXT.swift */,
 				D023AEF4297910CD00D45DE6 /* UIColorEXT.swift */,
+				D00ECF2029794DDB00A84439 /* UIButtonEXT.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D0362B8C297A5B1E00FCF46F /* SchetViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D052F901297AB21B00A2953B /* Entity */,
+				D0099207297A5F7E00DE3926 /* CustomViews */,
+				D0362B8D297A5B4200FCF46F /* SchetVC.swift */,
+				D0362B8F297A5B4E00FCF46F /* SchetVCInstaller.swift */,
+				D0362B91297A5B5C00FCF46F /* SchetVCPresenter.swift */,
+				D0362B93297A5B6800FCF46F /* SchetVCInteractor.swift */,
+				D0362B95297A5B7300FCF46F /* SchetVCRouter.swift */,
+			);
+			path = SchetViewController;
 			sourceTree = "<group>";
 		};
 		D03E32A62973BF2D0061025C /* IpotekaRetailHomeVC */ = {
@@ -610,6 +671,8 @@
 		D04184CB296E767F00DCA40C /* My_MVVM_Project */ = {
 			isa = PBXGroup;
 			children = (
+				D0362B8C297A5B1E00FCF46F /* SchetViewController */,
+				D00ECF222979512100A84439 /* MainTabBarVC */,
 				D023AEE129790C5E00D45DE6 /* ZayavkaViewController */,
 				D023AEC82978534C00D45DE6 /* Test */,
 				D023AEBB2978527400D45DE6 /* HisobraqamlarVC */,
@@ -680,6 +743,14 @@
 				D046B90C297185840031D14E /* PaymentConfirmationRouter.swift */,
 			);
 			path = PaymentConfirmations;
+			sourceTree = "<group>";
+		};
+		D052F901297AB21B00A2953B /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				D052F902297AB22F00A2953B /* PerevodCardDM.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 		D0D47691296FED960069D9F6 /* ViperExtension */ = {
@@ -847,6 +918,7 @@
 				D023AEC52978529F00D45DE6 /* HisobraqamlarVCInt.swift in Sources */,
 				D023AED82978548400D45DE6 /* MainOperationview.swift in Sources */,
 				D023AEC7297852E800D45DE6 /* CardView.swift in Sources */,
+				D052F900297AB0C200A2953B /* PerevodCardViewCell.swift in Sources */,
 				D056098D296FE26300C456BB /* ItemView.swift in Sources */,
 				D023AE1F2977FC7A00D45DE6 /* PageView.swift in Sources */,
 				D023AE422978407D00D45DE6 /* Installer.swift in Sources */,
@@ -855,12 +927,16 @@
 				D023AEA12978503E00D45DE6 /* ZayavleniyaiPerevodVCc.swift in Sources */,
 				D023AE3D29783D6700D45DE6 /* SchetaView.swift in Sources */,
 				D023AEC12978529200D45DE6 /* HisobraqamlarVCPRe.swift in Sources */,
+				D0362B94297A5B6800FCF46F /* SchetVCInteractor.swift in Sources */,
 				D02AEC072975A449001A8C9B /* CustomScrollView.swift in Sources */,
 				D023AE402978407400D45DE6 /* VC.swift in Sources */,
+				D00ECF2129794DDB00A84439 /* UIButtonEXT.swift in Sources */,
 				D023AE53297845A300D45DE6 /* SferaVC.swift in Sources */,
 				D023AE8D29784CB600D45DE6 /* KursandValRouter.swift in Sources */,
 				D023AE112977CBD300D45DE6 /* ValyutaExpandStackChildView.swift in Sources */,
+				D0CF591F297A73BF00082A82 /* SelectedDataDialog.swift in Sources */,
 				D023AE8F29784CF600D45DE6 /* ValyutaModel.swift in Sources */,
+				D0362B90297A5B4E00FCF46F /* SchetVCInstaller.swift in Sources */,
 				D023AEFF2979124200D45DE6 /* PresentationProtocol.swift in Sources */,
 				D023AE6B297848D100D45DE6 /* RekvizitInstaller.swift in Sources */,
 				D023AEB6297851C100D45DE6 /* PlatejaInteractor.swift in Sources */,
@@ -868,17 +944,21 @@
 				D025093529702136003DAEE0 /* CalendarDialogController.swift in Sources */,
 				D023AE5B297845C800D45DE6 /* SferaRoutere.swift in Sources */,
 				D023AED22978538500D45DE6 /* TestVCRouter.swift in Sources */,
+				D00ECF242979514900A84439 /* MainTabBarViewController.swift in Sources */,
 				D023AE66297847CD00D45DE6 /* NextRouter.swift in Sources */,
 				D023AEF72979111900D45DE6 /* FloatingTextField.swift in Sources */,
 				D023AF03297912F100D45DE6 /* MaterialMultilineTextField.swift in Sources */,
 				D023AE5E2978478300D45DE6 /* NextViewC.swift in Sources */,
+				D0099209297A5FAD00DE3926 /* BalanceView.swift in Sources */,
 				D023AEAB297850A200D45DE6 /* CardDM.swift in Sources */,
 				D023AEDC297854D900D45DE6 /* MyTxtField.swift in Sources */,
 				D023AE7E29784B7900D45DE6 /* ServiceRouter.swift in Sources */,
 				D023AE7329784A2B00D45DE6 /* MaterialMultilinedView.swift in Sources */,
+				D04B73EF297A6C31001C80DB /* RequiredDataView.swift in Sources */,
 				D023AEE529790C8A00D45DE6 /* ZayavkaVCInstaller.swift in Sources */,
 				D023AE1A2977E5D400D45DE6 /* IpotekaKartalarInteractor.swift in Sources */,
 				D023AEBD2978528300D45DE6 /* HisobraqamlarVc.swift in Sources */,
+				D0D5FB7C297A67F8004B0833 /* SchetCardView.swift in Sources */,
 				D023AE9129784D3500D45DE6 /* DPickerController.swift in Sources */,
 				D023AE59297845C200D45DE6 /* SferaInteractor.swift in Sources */,
 				D046B9072971855A0031D14E /* PaymentConfirmationInstaller.swift in Sources */,
@@ -888,8 +968,10 @@
 				D023AEA52978504D00D45DE6 /* ZayavleniyaiPerevodVCPresenter.swift in Sources */,
 				D0560989296FE26300C456BB /* StandartOrdersView.swift in Sources */,
 				D023AE162977E55E00D45DE6 /* IpotekaKartalarInstaller.swift in Sources */,
+				D0362B92297A5B5C00FCF46F /* SchetVCPresenter.swift in Sources */,
 				D0D476BA296FF9A40069D9F6 /* HomeVC.swift in Sources */,
 				D023AEE929790CA500D45DE6 /* ZayavkaVCInteractor.swift in Sources */,
+				D052F903297AB22F00A2953B /* PerevodCardDM.swift in Sources */,
 				D023AEB0297851A100D45DE6 /* Platejavc.swift in Sources */,
 				D023AE442978408600D45DE6 /* Presenter.swift in Sources */,
 				D023AEBF2978528B00D45DE6 /* HisobraqamlarVCIns.swift in Sources */,
@@ -908,6 +990,7 @@
 				D023AE6D297848DB00D45DE6 /* RekvizitPresenter.swift in Sources */,
 				D023AEE02978553200D45DE6 /* MainOperationDM.swift in Sources */,
 				D023AECE2978537400D45DE6 /* TestVCInteractor.swift in Sources */,
+				D0362B96297A5B7300FCF46F /* SchetVCRouter.swift in Sources */,
 				D023AE8729784C9F00D45DE6 /* KursandValInstaller.swift in Sources */,
 				D023AEF92979113F00D45DE6 /* HomeHeader.swift in Sources */,
 				D046B9052971854B0031D14E /* PaymentConfirmationVC.swift in Sources */,
@@ -948,6 +1031,7 @@
 				D023AEB8297851CC00D45DE6 /* PlatejaRotuer.swift in Sources */,
 				D023AED02978537C00D45DE6 /* TestVCPresenter.swift in Sources */,
 				D023AE222977FCAD00D45DE6 /* PageModel.swift in Sources */,
+				D0362B8E297A5B4200FCF46F /* SchetVC.swift in Sources */,
 				D023AECC2978536D00D45DE6 /* TestVCInstaller.swift in Sources */,
 				D030164D2975267400377832 /* CustomTXTField.swift in Sources */,
 				D046B8FF297170170031D14E /* SwipeGestureUSedViewController.swift in Sources */,
